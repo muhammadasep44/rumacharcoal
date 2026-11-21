@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
@@ -61,12 +61,21 @@
     <priority>0.90</priority>
   </url>
 
-  <!-- 7. Hardwood Lump Charcoal & Indonesian White Binchotan (Klaster 2) -->
+  <!-- 7. Natural Coconut Shell Charcoal (Arang Batok Kelapa) -->
+  <url>
+    <loc>https://www.rumacharcoal.com/product/coconut-shell-charcoal.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rumacharcoal.com/product/coconut-shell-charcoal.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rumacharcoal.com/product/coconut-shell-charcoal.html" />
+  </url>
+  <!-- Secondary: Hardwood Lump Charcoal & White Binchotan -->
   <url>
     <loc>https://www.rumacharcoal.com/product/hardwood-lump-charcoal.html</loc>
     <lastmod>2026-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
 
   <!-- 8. Coconut Shell Activated Carbon GAC & PAC (Klaster 4) -->
