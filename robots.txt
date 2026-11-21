@@ -1,0 +1,25 @@
+# robots.txt for rumacharcoal.com
+# Optimized for Global B2B Charcoal Export SEO & AI Engines
+
+User-agent: *
+Allow: /
+
+# Allow AI Search Crawlers (AIO, GEO, Perplexity, OpenAI, Anthropic)
+User-agent: Googlebot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Disallow scrapers or private scripts if any
+Disallow: /scratch/
+Disallow: /temp/
+
+# XML Sitemap
+Sitemap: https://www.rumacharcoal.com/sitemap.xml

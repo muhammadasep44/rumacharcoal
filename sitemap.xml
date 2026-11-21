@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- 1. Homepage / Pillar Page (BOFU Primary) -->
+  <url>
+    <loc>https://www.rumacharcoal.com/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rumacharcoal.com/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.rumacharcoal.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.rumacharcoal.com/de/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.rumacharcoal.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.rumacharcoal.com/jp/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.rumacharcoal.com/kr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rumacharcoal.com/" />
+  </url>
+
+  <!-- 2. About Us & Factory Profile -->
+  <url>
+    <loc>https://www.rumacharcoal.com/about-us.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rumacharcoal.com/about-us.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rumacharcoal.com/about-us.html" />
+  </url>
+
+  <!-- 3. Product Catalog Showcase (/product.html) -->
+  <url>
+    <loc>https://www.rumacharcoal.com/product.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rumacharcoal.com/product.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rumacharcoal.com/product.html" />
+  </url>
+
+  <!-- 4. Product Catalog Hub (/product/) -->
+  <url>
+    <loc>https://www.rumacharcoal.com/product/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- 5. Shisha Coconut Charcoal Briquettes (Klaster 1 & 4) -->
+  <url>
+    <loc>https://www.rumacharcoal.com/product/shisha-charcoal-briquettes.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- 6. BBQ Sawdust Ogatan & Coconut Pillow Briquettes (Klaster 2) -->
+  <url>
+    <loc>https://www.rumacharcoal.com/product/bbq-charcoal-briquettes.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- 7. Hardwood Lump Charcoal & Indonesian White Binchotan (Klaster 2) -->
+  <url>
+    <loc>https://www.rumacharcoal.com/product/hardwood-lump-charcoal.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- 8. Coconut Shell Activated Carbon GAC & PAC (Klaster 4) -->
+  <url>
+    <loc>https://www.rumacharcoal.com/product/activated-carbon.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- 9. Sustainability & EUDR Traceability -->
+  <url>
+    <loc>https://www.rumacharcoal.com/sustainable.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rumacharcoal.com/sustainable.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rumacharcoal.com/sustainable.html" />
+  </url>
+
+  <!-- 10. OEM / Private Label Services & Custom Packaging (Klaster 5 & 7) -->
+  <url>
+    <loc>https://www.rumacharcoal.com/oem-private-label-charcoal.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- 11. 2026 Maritime Regulations & IMDG 42-24 UN 1361 Compliance (Klaster 6) -->
+  <url>
+    <loc>https://www.rumacharcoal.com/export-compliance-imdg-2026.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- 12. Contact Us & Global Export Desk -->
+  <url>
+    <loc>https://www.rumacharcoal.com/contact-us.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rumacharcoal.com/contact-us.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rumacharcoal.com/contact-us.html" />
+  </url>
+
+</urlset>

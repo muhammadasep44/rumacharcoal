@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- PRIMARY SEO META TAGS -->
+  <title>About Us &amp; Factory Profile | Ruma Charcoal (PT. Bumi Ruma Nusantara)</title>
+  <meta name="description" content="Discover Ruma Charcoal (PT. Bumi Ruma Nusantara), Indonesia's trusted B2B manufacturer and exporter of premium coconut shisha briquettes, sawdust ogatan, and hardwood lump charcoal. Production capacity 350 MT/month in Sukabumi, West Java." />
+  <meta name="keywords" content="about ruma charcoal, pt bumi ruma nusantara, indonesian charcoal factory sukabumi, coconut briquettes manufacturer profile, direct charcoal exporter indonesia, B2B charcoal supplier" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <link rel="canonical" href="https://www.rumacharcoal.com/about-us.html" />
+
+  <!-- MULTILINGUAL HREFLANG -->
+  <link rel="alternate" hreflang="x-default" href="https://www.rumacharcoal.com/about-us.html" />
+  <link rel="alternate" hreflang="en" href="https://www.rumacharcoal.com/about-us.html" />
+
+  <!-- GEO META -->
+  <meta name="geo.region" content="ID-JB" />
+  <meta name="geo.placename" content="Sukabumi, West Java, Indonesia" />
+  <meta name="geo.position" content="-6.9277;106.9296" />
+  <meta name="ICBM" content="-6.9277, 106.9296" />
+
+  <!-- OPEN GRAPH & TWITTER -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.rumacharcoal.com/about-us.html" />
+  <meta property="og:site_name" content="Ruma Charcoal" />
+  <meta property="og:title" content="About Ruma Charcoal | Direct Indonesian Manufacturer &amp; Exporter" />
+  <meta property="og:description" content="Learn about our 350 MT/month factory capacity, zero-crack quality control, and global export infrastructure in Sukabumi, West Java." />
+  <meta property="og:image" content="https://www.rumacharcoal.com/assets/images/factory-production.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- FONTS & ICONS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <!-- TAILWIND CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              orange: '#EA580C',
+              ember: '#D97706',
+              dark: '#0B1120',
+              charcoal: '#151E2E',
+              surface: '#F8FAFC',
+              muted: '#64748B'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            serif: ['"DM Serif Display"', 'serif'],
+          },
+          boxShadow: {
+            'glow': '0 10px 40px -10px rgba(234, 88, 12, 0.45)',
+            'float': '0 20px 40px -10px rgba(0,0,0,0.1)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    ::-webkit-scrollbar { width: 10px; }
+    ::-webkit-scrollbar-track { background: #F8FAFC; }
+    ::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 5px; }
+    ::-webkit-scrollbar-thumb:hover { background: #94A3B8; }
+
+    .glass-nav {
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+    }
+    .hero-gradient {
+      background: linear-gradient(105deg, rgba(11, 17, 32, 0.96) 0%, rgba(11, 17, 32, 0.75) 55%, rgba(0,0,0,0.3) 100%);
+    }
+    .reveal {
+      opacity: 0;
+      transform: translateY(36px);
+      transition: all 0.8s cubic-bezier(0.5, 0, 0, 1);
+    }
+    .reveal.active { opacity: 1; transform: translateY(0); }
+    .reveal-delay-1 { transition-delay: 100ms; }
+    .reveal-delay-2 { transition-delay: 200ms; }
+
+    .footer-divider { border-color: rgba(255,255,255,0.08); }
+
+    #progress-bar {
+      position: fixed;
+      top: 0; left: 0;
+      height: 3px;
+      width: 0%;
+      background: linear-gradient(90deg, #EA580C, #F97316, #EA580C);
+      z-index: 99999;
+      transition: width 0.08s linear;
+    }
+
+    #scroll-top {
+      position: fixed;
+      bottom: 6.5rem;
+      right: 1.5rem;
+      z-index: 9990;
+      width: 44px; height: 44px;
+      background: #EA580C;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(12px);
+      transition: all 0.3s;
+      box-shadow: 0 4px 20px rgba(234,88,12,0.4);
+      border: none;
+    }
+    #scroll-top:hover { background: #C2410C; }
+
+    #cookie-bar {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      z-index: 99998;
+      background: #0B1120;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 1.1rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      transform: translateY(100%);
+      transition: transform 0.5s;
+    }
+    #cookie-bar.show { transform: translateY(0); }
+    .cookie-btn {
+      font-weight: 700; font-size: 0.8rem; padding: 0.55rem 1.2rem; border-radius: 8px; border: none; cursor: pointer;
+    }
+
+    #toast {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      z-index: 9999;
+      min-width: 280px;
+      padding: 1rem 1.5rem;
+      border-radius: 1rem;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 600;
+      font-size: 0.9rem;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      transform: translateY(140%);
+      transition: transform 0.4s cubic-bezier(0.5, 0, 0, 1);
+    }
+    #toast.show { transform: translateY(0); }
+    #toast.success { background: #0B1120; color: white; border-left: 4px solid #EA580C; }
+    #toast.error { background: #1a0505; color: #fca5a5; border-left: 4px solid #ef4444; }
+
+    body > #wa-float {
+      position: fixed !important;
+      right: 1.35rem !important;
+      bottom: 1.35rem !important;
+      z-index: 2147483647 !important;
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.65rem !important;
+      text-decoration: none !important;
+      pointer-events: auto !important;
+    }
+    body > #wa-float .wa-label {
+      display: none;
+      background: #0B1120;
+      color: #ffffff;
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 999px;
+      padding: 0.62rem 0.95rem;
+      font-size: 0.78rem; font-weight: 800; white-space: nowrap;
+    }
+    body > #wa-float:hover .wa-label { display: inline-flex; }
+    body > #wa-float .wa-btn {
+      position: relative;
+      width: 52px; height: 52px;
+      display: flex; align-items: center; justify-content: center;
+      border-radius: 999px; background: #25D366; color: #ffffff;
+      box-shadow: 0 12px 28px rgba(37,211,102,0.36);
+    }
+    body > #wa-float .wa-ping {
+      position: absolute; inset: 0; border-radius: inherit;
+      background: rgba(37,211,102,0.22); transform: scale(1.42);
+      animation: waPulse 1.9s ease-in-out infinite;
+    }
+    body > #wa-float .wa-svg { position: relative; z-index: 1; width: 29px; height: 29px; color: #fff; }
+    @keyframes waPulse { 0%, 100% { opacity: 0.55; transform: scale(1.18); } 50% { opacity: 0.12; transform: scale(1.5); } }
+  </style>
+
+  <!-- STRUCTURED DATA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.rumacharcoal.com/" },
+          { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://www.rumacharcoal.com/about-us.html" }
+        ]
+      },
+      {
+        "@type": "AboutPage",
+        "@id": "https://www.rumacharcoal.com/about-us.html#about",
+        "name": "About Ruma Charcoal (PT. Bumi Ruma Nusantara)",
+        "description": "Corporate profile, factory infrastructure, production engineering, and international export track record of Ruma Charcoal.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Ruma Charcoal (PT. Bumi Ruma Nusantara)",
+          "url": "https://www.rumacharcoal.com/",
+          "telephone": "+62-896-6632-7550",
+          "email": "hello@rumaexport.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Babakan, Kec. Cisaat, Kab. Sukabumi, Jawa Barat",
+            "addressLocality": "Sukabumi",
+            "addressRegion": "West Java",
+            "postalCode": "43135",
+            "addressCountry": "ID"
+          }
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="font-sans text-brand-muted bg-white antialiased overflow-x-hidden">
+
+  <!-- PAGE SCROLL PROGRESS BAR -->
+  <div id="progress-bar"></div>
+
+  <!-- ==========================================
+       1. HEADER & NAVIGATION
+       ========================================== -->
+  <header id="navbar" class="fixed w-full top-0 z-50 transition-all duration-500 bg-transparent text-white py-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-14">
+        
+        <a href="index.html" class="flex items-center group flex-shrink-0">
+          <span class="font-serif font-bold text-2xl sm:text-3xl tracking-tight leading-none text-current transition-colors duration-300">
+            RUMA CHARCOAL<span class="text-brand-orange">.</span>
+          </span>
+        </a>
+
+        <nav class="hidden xl:flex space-x-6 items-center">
+          <a href="index.html" class="hover:text-brand-orange transition-colors font-semibold text-[0.95rem] tracking-wide nav-item">Home</a>
+          <a href="about-us.html" class="text-brand-orange font-semibold text-[0.95rem] tracking-wide nav-item">About Us</a>
+          <a href="product.html" class="hover:text-brand-orange transition-colors font-semibold text-[0.95rem] tracking-wide nav-item">Products</a>
+          <a href="sustainable.html" class="hover:text-brand-orange transition-colors font-semibold text-[0.95rem] tracking-wide nav-item">Sustainability</a>
+          <a href="oem-private-label-charcoal.html" class="hover:text-brand-orange transition-colors font-semibold text-[0.95rem] tracking-wide nav-item">OEM &amp; Private Label</a>
+          <a href="export-compliance-imdg-2026.html" class="hover:text-brand-orange transition-colors font-semibold text-[0.95rem] tracking-wide nav-item">IMDG 2026</a>
+          <a href="contact-us.html" class="bg-brand-orange text-white px-7 py-3 rounded-full font-bold text-[0.95rem] hover:bg-orange-700 hover:shadow-glow transition-all duration-300">Contact Us</a>
+        </nav>
+
+        <div class="xl:hidden">
+          <button id="mobile-menu-btn" class="text-current focus:outline-none p-2" aria-label="Toggle Navigation Menu">
+            <i class="ph ph-list text-3xl"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="hidden xl:hidden bg-white/95 backdrop-blur-xl text-brand-dark border-t border-gray-100 shadow-2xl absolute w-full top-full left-0">
+      <div class="px-6 pt-4 pb-8 space-y-2 flex flex-col">
+        <a href="index.html" class="block px-4 py-3 rounded-xl text-lg font-bold hover:bg-brand-surface hover:text-brand-orange mobile-link">Home</a>
+        <a href="about-us.html" class="block px-4 py-3 rounded-xl text-lg font-bold bg-brand-surface text-brand-orange mobile-link">About Us</a>
+        <a href="product.html" class="block px-4 py-3 rounded-xl text-lg font-bold hover:bg-brand-surface hover:text-brand-orange mobile-link">Product Catalog</a>
+        <a href="sustainable.html" class="block px-4 py-3 rounded-xl text-lg font-bold hover:bg-brand-surface hover:text-brand-orange mobile-link">Sustainability &amp; EUDR</a>
+        <a href="oem-private-label-charcoal.html" class="block px-4 py-3 rounded-xl text-lg font-bold hover:bg-brand-surface hover:text-brand-orange mobile-link">OEM &amp; Private Label</a>
+        <a href="export-compliance-imdg-2026.html" class="block px-4 py-3 rounded-xl text-lg font-bold hover:bg-brand-surface hover:text-brand-orange mobile-link">IMDG 2026 Compliance</a>
+        <a href="contact-us.html" class="block mt-6 text-center bg-brand-orange text-white px-4 py-4 rounded-xl text-lg font-bold hover:bg-orange-700 mobile-link shadow-glow">Contact Export Desk</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       2. HERO SECTION
+       ========================================== -->
+  <section class="relative min-h-[560px] flex items-center overflow-hidden pt-28 pb-16 bg-brand-dark">
+    <div class="absolute inset-0 z-0">
+      <img src="assets/images/factory-production.jpg" alt="Indonesian agricultural biomass and charcoal factory facilities" class="w-full h-full object-cover opacity-50" fetchpriority="high" />
+      <div class="absolute inset-0 hero-gradient"></div>
+    </div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div class="max-w-3xl reveal">
+        <div class="inline-flex items-center gap-2 py-1.5 px-4 rounded-full bg-white/10 border border-white/20 text-white font-bold tracking-widest uppercase text-xs mb-6 backdrop-blur-md">
+          <span class="w-2 h-2 rounded-full bg-brand-orange"></span> Direct Indonesian Manufacturer &bull; Sukabumi, West Java
+        </div>
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-white leading-tight mb-6">
+          Factory Profile, Production Capacity &amp; Corporate Heritage.
+        </h1>
+        <p class="text-lg md:text-xl text-gray-300 font-light leading-relaxed mb-8">
+          Meet <strong>PT. Bumi Ruma Nusantara</strong>. Delivering 350 MT/month of world-class coconut shisha briquettes and biomass fuels to master distributors across 24+ countries.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="contact-us.html" class="bg-brand-orange text-white px-8 py-3.5 rounded-full font-bold hover:bg-orange-600 transition-all shadow-glow">
+            Schedule Factory Visit
+          </a>
+          <a href="product.html" class="bg-white/10 border border-white/30 text-white px-8 py-3.5 rounded-full font-bold hover:bg-white hover:text-brand-dark transition-all">
+            Explore Products
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       3. CORPORATE HERITAGE & MISSION
+       ========================================== -->
+  <section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        
+        <div class="reveal">
+          <h2 class="text-brand-orange font-bold tracking-widest uppercase text-xs mb-4 flex items-center gap-2">
+            <span class="w-8 h-0.5 bg-brand-orange"></span> Our Heritage &bull; PT. Bumi Ruma Nusantara
+          </h2>
+          <h3 class="text-4xl font-serif font-bold text-brand-dark mb-6 leading-tight">
+            Over a Decade of Engineering Integrity in Indonesian Biomass.
+          </h3>
+          <div class="space-y-5 text-brand-muted text-lg font-light leading-relaxed">
+            <p>
+              Founded in Sukabumi, West Java, <strong>PT. Bumi Ruma Nusantara (Ruma Charcoal)</strong> began with a clear engineering mission: to eliminate common industry defects like smoking, sparking, chemical odors, and cracking in shisha briquettes by applying rigorous manufacturing standards.
+            </p>
+            <p>
+              Today, our modern industrial complex in Sukabumi operates high-pressure hydraulic extrusion lines, automatic rotary baking chambers, and dedicated weathering hangars. We handle the entire value chain from aged raw coconut shell carbonization to custom retail box packaging.
+            </p>
+            <p>
+              Under the direction of <strong>Muhammad Asep Komarudin</strong>, our export desk works directly with overseas brand owners, shisha lounge chains, and supermarket distributors to deliver consistent batches that exceed international commercial expectations.
+            </p>
+          </div>
+        </div>
+
+        <div class="relative reveal reveal-delay-1">
+          <div class="grid grid-cols-2 gap-4">
+            <img src="assets/images/shisha-briquettes-cubes.jpg" alt="Super white ash glowing shisha briquettes" class="rounded-2xl shadow-xl w-full h-80 object-cover" loading="lazy" />
+            <img src="assets/images/bbq-charcoal-briquettes.jpg" alt="High heat BBQ sawdust charcoal" class="rounded-2xl shadow-xl w-full h-80 object-cover mt-12" loading="lazy" />
+          </div>
+          <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-2xl shadow-float text-center border border-gray-100">
+            <span class="block text-4xl font-bold text-brand-orange font-serif count-up" data-target="10" data-suffix="+">0</span>
+            <span class="text-xs font-bold uppercase tracking-widest text-brand-dark">Years of Manufacturing</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       4. FACTORY INFRASTRUCTURE (3 Pillars)
+       ========================================== -->
+  <section class="py-24 bg-brand-surface">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+        <h2 class="text-brand-orange font-bold tracking-widest uppercase text-xs mb-4 justify-center flex items-center gap-2">
+          <span class="w-8 h-0.5 bg-brand-orange"></span> Infrastructure &amp; Capabilities <span class="w-8 h-0.5 bg-brand-orange"></span>
+        </h2>
+        <h3 class="text-4xl font-serif font-bold text-brand-dark mb-4">
+          Built for High-Volume, Zero-Defect Ocean Export
+        </h3>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <div class="p-10 bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-float transition-all reveal">
+          <div class="w-16 h-16 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 text-brand-orange">
+            <i class="ph-fill ph-gear text-3xl"></i>
+          </div>
+          <h4 class="font-bold text-brand-dark text-xl mb-3">150+ Bar Hydraulic Extrusion</h4>
+          <p class="text-brand-muted text-[0.95rem] leading-relaxed">
+            Industrial hydraulic compression compacts coconut powder to extreme structural density. This guarantees briquettes remain crack-free on heated burners.
+          </p>
+        </div>
+
+        <div class="p-10 bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-float transition-all reveal reveal-delay-1">
+          <div class="w-16 h-16 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 text-brand-orange">
+            <i class="ph-fill ph-thermometer text-3xl"></i>
+          </div>
+          <h4 class="font-bold text-brand-dark text-xl mb-3">Thermostatic Rotary Ovens</h4>
+          <p class="text-brand-muted text-[0.95rem] leading-relaxed">
+            48-hour continuous controlled baking extracts residual moisture down to strictly &lt;5.0%. This prevents internal dampness and foul steam during lighting.
+          </p>
+        </div>
+
+        <div class="p-10 bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-float transition-all reveal reveal-delay-2">
+          <div class="w-16 h-16 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 text-brand-orange">
+            <i class="ph-fill ph-warehouse text-3xl"></i>
+          </div>
+          <h4 class="font-bold text-brand-dark text-xl mb-3">IMDG 42-24 Weathering Bays</h4>
+          <p class="text-brand-muted text-[0.95rem] leading-relaxed">
+            Dedicated indoor aeration hangars ensure all freshly carbonized materials complete mandatory 14-day weathering before container stuffing and survey issuance.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       5. CTA BANNER
+       ========================================== -->
+  <section class="py-20 bg-brand-dark text-white relative">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center reveal">
+      <h3 class="text-3xl sm:text-4xl font-serif font-bold mb-6">Inspect Our Manufacturing Complex in Sukabumi</h3>
+      <p class="text-gray-300 font-light text-lg leading-relaxed mb-8">
+        We arrange direct VIP transport from Jakarta International Airport (CGK) for international buyer delegations, lounge owners, and surveyor teams. Experience our production quality firsthand.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="contact-us.html" class="bg-brand-orange text-white font-bold px-8 py-4 rounded-full hover:bg-orange-600 transition-all shadow-glow">
+          Book a Factory Visit
+        </a>
+        <a href="https://wa.me/6289666327550?text=Hello%20Ruma%20Charcoal,%20I%20would%20like%20to%20plan%20a%20factory%20visit%20to%20Sukabumi." target="_blank" rel="noopener noreferrer" class="bg-green-600 hover:bg-green-500 text-white font-bold px-8 py-4 rounded-full transition-all flex items-center gap-2">
+          <i class="ph-fill ph-whatsapp-logo text-xl"></i> Chat on WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       6. FOOTER (5-Column Layout)
+       ========================================== -->
+  <footer class="bg-[#080C17] text-gray-400 border-t footer-divider">
+    <div class="border-b footer-divider">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+          <div>
+            <h4 class="text-white font-bold text-xl mb-1">Stay Updated on 2026 Charcoal Export Prices &amp; Maritime Freight</h4>
+            <p class="text-sm font-light text-gray-500">Get our monthly market analysis and FOB Indonesia price updates delivered directly to your desk.</p>
+          </div>
+          <div class="flex gap-3 w-full md:w-auto flex-col sm:flex-row">
+            <input type="email" id="newsletter-email" placeholder="Your business email" class="flex-1 md:w-64 bg-white/5 border border-white/10 text-white placeholder-gray-600 px-5 py-3 rounded-xl text-sm focus:border-brand-orange transition-colors outline-none" />
+            <button onclick="subscribeNewsletter()" class="bg-brand-orange hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl text-sm transition-all whitespace-nowrap">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
+        <div class="lg:col-span-2">
+          <a href="index.html" class="inline-block mb-6">
+            <span class="font-serif font-bold text-2xl tracking-tight text-white">
+              RUMA CHARCOAL<span class="text-brand-orange">.</span>
+            </span>
+          </a>
+          <p class="text-sm font-light leading-relaxed mb-6 max-w-xs">
+            <strong>PT. Bumi Ruma Nusantara</strong> is Indonesia's trusted B2B manufacturer and global exporter of premium coconut shell shisha briquettes, hexagonal sawdust ogatan, and hardwood lump charcoal. Operating with full IMDG 42-24 UN 1361 Class 4.2 compliance.
+          </p>
+          <div class="flex flex-wrap gap-2.5 mb-8">
+            <span class="text-[0.65rem] font-bold uppercase tracking-widest border border-white/10 px-3 py-1.5 rounded-lg text-gray-300">IMDG 42-24</span>
+            <span class="text-[0.65rem] font-bold uppercase tracking-widest border border-white/10 px-3 py-1.5 rounded-lg text-gray-300">UN 1361</span>
+            <span class="text-[0.65rem] font-bold uppercase tracking-widest border border-white/10 px-3 py-1.5 rounded-lg text-gray-300">EUDR Ready</span>
+            <span class="text-[0.65rem] font-bold uppercase tracking-widest border border-white/10 px-3 py-1.5 rounded-lg text-gray-300">SVLK Legal</span>
+          </div>
+          <div class="flex gap-3">
+            <a href="contact-us.html" aria-label="LinkedIn" class="w-10 h-10 rounded-xl bg-white/5 hover:bg-brand-orange flex items-center justify-center transition-all duration-300">
+              <i class="ph-fill ph-linkedin-logo text-lg text-gray-400 hover:text-white"></i>
+            </a>
+            <a href="https://wa.me/6289666327550" aria-label="WhatsApp" class="w-10 h-10 rounded-xl bg-white/5 hover:bg-brand-orange flex items-center justify-center transition-all duration-300">
+              <i class="ph-fill ph-whatsapp-logo text-lg text-gray-400 hover:text-white"></i>
+            </a>
+            <a href="mailto:hello@rumaexport.com" aria-label="Email" class="w-10 h-10 rounded-xl bg-white/5 hover:bg-brand-orange flex items-center justify-center transition-all duration-300">
+              <i class="ph-fill ph-envelope-simple text-lg text-gray-400 hover:text-white"></i>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="text-white font-bold mb-6 tracking-widest uppercase text-xs">Company</h4>
+          <ul class="space-y-3 text-sm font-light">
+            <li><a href="about-us.html" class="hover:text-brand-orange transition-colors flex items-center gap-2"><i class="ph ph-caret-right text-xs"></i>About Us</a></li>
+            <li><a href="product.html" class="hover:text-brand-orange transition-colors flex items-center gap-2"><i class="ph ph-caret-right text-xs"></i>Product Catalog</a></li>
+            <li><a href="sustainable.html" class="hover:text-brand-orange transition-colors flex items-center gap-2"><i class="ph ph-caret-right text-xs"></i>Sustainability &amp; EUDR</a></li>
+            <li><a href="oem-private-label-charcoal.html" class="hover:text-brand-orange transition-colors flex items-center gap-2"><i class="ph ph-caret-right text-xs"></i>OEM &amp; Private Label</a></li>
+            <li><a href="export-compliance-imdg-2026.html" class="hover:text-brand-orange transition-colors flex items-center gap-2"><i class="ph ph-caret-right text-xs"></i>IMDG 2026 Rules</a></li>
+            <li><a href="contact-us.html" class="hover:text-brand-orange transition-colors flex items-center gap-2"><i class="ph ph-caret-right text-xs"></i>Contact Export Desk</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-white font-bold mb-6 tracking-widest uppercase text-xs">Product Lines</h4>
+          <ul class="space-y-3 text-sm font-light">
+            <li><a href="product/shisha-charcoal-briquettes.html" class="hover:text-brand-orange transition-colors flex items-center gap-2"><i class="ph ph-caret-right text-xs"></i>Shisha Charcoal (<1.8% Ash)</a></li>
+            <li><a href="product/bbq-charcoal-briquettes.html" class="hover:text-brand-orange transition-colors flex items-center gap-2"><i class="ph ph-caret-right text-xs"></i>Hexagonal Sawdust (Ogatan)</a></li>
+            <li><a href="product/hardwood-lump-charcoal.html" class="hover:text-brand-orange transition-colors flex items-center gap-2"><i class="ph ph-caret-right text-xs"></i>Hardwood Lump &amp; Binchotan</a></li>
+            <li><a href="product/activated-carbon.html" class="hover:text-brand-orange transition-colors flex items-center gap-2"><i class="ph ph-caret-right text-xs"></i>Activated Carbon (GAC/PAC)</a></li>
+            <li><a href="product/index.html" class="hover:text-brand-orange transition-colors flex items-center gap-2"><i class="ph ph-caret-right text-xs"></i>All Product Specs</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-white font-bold mb-6 tracking-widest uppercase text-xs">Factory Desk</h4>
+          <ul class="space-y-5 text-sm font-light">
+            <li class="flex items-start gap-3">
+              <i class="ph-fill ph-map-pin text-brand-orange text-base mt-0.5 flex-shrink-0"></i>
+              <span>Babakan, Kec. Cisaat, Kab. Sukabumi, Jawa Barat, Indonesia</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="ph-fill ph-phone text-brand-orange text-base flex-shrink-0"></i>
+              <a href="tel:+6289666327550" class="hover:text-brand-orange transition-colors">+62 896-6632-7550</a>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="ph-fill ph-envelope-simple text-brand-orange text-base flex-shrink-0"></i>
+              <a href="mailto:hello@rumaexport.com" class="hover:text-brand-orange transition-colors">hello@rumaexport.com</a>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="ph-fill ph-clock text-brand-orange text-base flex-shrink-0"></i>
+              <span>Mon &ndash; Sat, 08:00 &ndash; 17:00 WIB</span>
+            </li>
+          </ul>
+          <a href="https://wa.me/6289666327550?text=Hello%20Ruma%20Charcoal,%20I%20would%20like%20to%20inquire%20about%20your%20charcoal%20products." target="_blank" rel="noopener noreferrer" class="mt-8 inline-flex items-center gap-2 bg-green-600 hover:bg-green-500 text-white text-sm font-bold px-5 py-3 rounded-xl transition-all">
+            <i class="ph-fill ph-whatsapp-logo text-lg"></i> Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t footer-divider">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
+        <p class="text-xs font-light text-center md:text-left">
+          &copy; <span id="year">2026</span> <strong class="text-gray-300">Ruma Charcoal (PT. Bumi Ruma Nusantara)</strong>. All rights reserved. Registered in Indonesia.
+        </p>
+        <div class="flex items-center gap-6 text-xs font-light">
+          <a href="sustainable.html" class="hover:text-brand-orange transition-colors">EUDR Compliance</a>
+          <a href="export-compliance-imdg-2026.html" class="hover:text-brand-orange transition-colors">IMDG 42-24 Rules</a>
+          <a href="contact-us.html" class="hover:text-brand-orange transition-colors">Privacy &amp; Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast">
+    <i class="ph ph-check-circle text-2xl text-brand-orange"></i>
+    <span id="toast-message">Message sent successfully!</span>
+  </div>
+
+  <!-- SCROLL TO TOP -->
+  <button id="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256" fill="#ffffff">
+      <path d="M213.66,165.66a8,8,0,0,1-11.32,0L128,91.31,53.66,165.66a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,0l80,80A8,8,0,0,1,213.66,165.66Z"/>
+    </svg>
+  </button>
+
+  <!-- FLOATING WHATSAPP -->
+  <a id="wa-float" href="https://wa.me/6289666327550?text=Hello%20Ruma%20Charcoal,%20I%20am%20interested%20in%20learning%20more%20about%20your%20company%20and%20factory%20capacity." target="_blank" rel="noopener noreferrer" aria-label="Chat directly with Export Sales on WhatsApp">
+    <span class="wa-label">Chat with Export Desk</span>
+    <span class="wa-btn" aria-hidden="true">
+      <span class="wa-ping"></span>
+      <svg class="wa-svg" viewBox="0 0 32 32" focusable="false" aria-hidden="true"><path fill="currentColor" d="M16 3C8.82 3 3 8.82 3 16c0 2.3.6 4.54 1.75 6.52L3.1 28.9l6.52-1.59A12.9 12.9 0 0 0 16 29c7.18 0 13-5.82 13-13S23.18 3 16 3Zm0 23.67c-1.96 0-3.87-.53-5.53-1.55l-.4-.24-3.86.94 1-3.77-.26-.41A10.58 10.58 0 0 1 5.33 16C5.33 10.12 10.12 5.33 16 5.33S26.67 10.12 26.67 16 21.88 26.67 16 26.67Zm6.05-7.95c-.33-.17-1.96-.97-2.26-1.08-.3-.11-.52-.17-.74.17-.22.33-.85 1.08-1.04 1.3-.19.22-.39.25-.72.08-.33-.17-1.4-.52-2.67-1.65-.99-.88-1.65-1.97-1.85-2.3-.19-.33-.02-.51.15-.68.15-.15.33-.39.5-.58.17-.19.22-.33.33-.55.11-.22.06-.42-.03-.58-.08-.17-.74-1.78-1.02-2.44-.27-.64-.54-.55-.74-.56h-.63c-.22 0-.58.08-.88.42-.3.33-1.16 1.13-1.16 2.75s1.19 3.19 1.35 3.41c.17.22 2.34 3.57 5.67 5 .79.34 1.41.54 1.89.69.79.25 1.52.21 2.09.13.64-.1 1.96-.8 2.24-1.57.28-.77.28-1.43.19-1.57-.08-.14-.3-.22-.63-.39Z"/></svg>
+    </span>
+  </a>
+
+  <!-- SCRIPTS -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const yearEl = document.getElementById('year');
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+      const navbar = document.getElementById('navbar');
+      const navItems = document.querySelectorAll('.nav-item');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+          navbar.classList.add('glass-nav', 'text-brand-dark', 'py-2');
+          navbar.classList.remove('bg-transparent', 'text-white', 'py-4');
+          navItems.forEach(i => { i.classList.replace('text-white', 'text-brand-dark'); });
+        } else {
+          navbar.classList.remove('glass-nav', 'text-brand-dark', 'py-2');
+          navbar.classList.add('bg-transparent', 'text-white', 'py-4');
+          navItems.forEach(i => { i.classList.replace('text-brand-dark', 'text-white'); });
+        }
+      });
+
+      const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      if (mobileMenuBtn && mobileMenu) {
+        mobileMenuBtn.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+          const icon = mobileMenuBtn.querySelector('i');
+          if (icon) {
+            icon.classList.toggle('ph-list');
+            icon.classList.toggle('ph-x');
+          }
+          if (!mobileMenu.classList.contains('hidden') && window.scrollY <= 50) {
+            navbar.classList.add('glass-nav', 'text-brand-dark');
+            navbar.classList.remove('text-white');
+          }
+        });
+      }
+
+      const reveals = document.querySelectorAll('.reveal');
+      const revealOnScroll = () => {
+        reveals.forEach(el => {
+          if (el.getBoundingClientRect().top < window.innerHeight - 80) el.classList.add('active');
+        });
+      };
+      window.addEventListener('scroll', revealOnScroll, { passive: true });
+      revealOnScroll();
+    });
+
+    (function () {
+      const bar = document.getElementById('progress-bar');
+      if (!bar) return;
+      window.addEventListener('scroll', () => {
+        const scrolled = window.scrollY;
+        const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+        bar.style.width = maxScroll > 0 ? (scrolled / maxScroll * 100) + '%' : '0%';
+      }, { passive: true });
+    })();
+
+    (function () {
+      const btn = document.getElementById('scroll-top');
+      if (!btn) return;
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 200) {
+          btn.style.opacity = '1';
+          btn.style.transform = 'translateY(0)';
+          btn.style.pointerEvents = 'auto';
+        } else {
+          btn.style.opacity = '0';
+          btn.style.transform = 'translateY(12px)';
+          btn.style.pointerEvents = 'none';
+        }
+      }, { passive: true });
+    })();
+
+    (function () {
+      const counters = document.querySelectorAll('.count-up');
+      if (!counters.length) return;
+      function animateCounter(el) {
+        if (el.dataset.animated) return;
+        el.dataset.animated = 'true';
+        const target = parseInt(el.dataset.target, 10);
+        const suffix = el.dataset.suffix || '';
+        const duration = 1800;
+        const start = performance.now();
+        function easeOut(t) { return 1 - Math.pow(1 - t, 3); }
+        function step(now) {
+          const elapsed = now - start;
+          const progress = Math.min(elapsed / duration, 1);
+          const value = Math.floor(easeOut(progress) * target);
+          el.textContent = value.toLocaleString() + suffix;
+          if (progress < 1) requestAnimationFrame(step);
+          else el.textContent = target.toLocaleString() + suffix;
+        }
+        requestAnimationFrame(step);
+      }
+      const obs = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) animateCounter(e.target); });
+      }, { threshold: 0.4 });
+      counters.forEach(el => obs.observe(el));
+    })();
+  </script>
+</body>
+</html>
