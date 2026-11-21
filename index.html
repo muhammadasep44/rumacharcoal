@@ -11,6 +11,8 @@
   <meta name="description" content="Direct Indonesian manufacturer and global B2B exporter of 100% natural coconut shell shisha charcoal briquettes (<1.8% super white ash), hexagonal sawdust BBQ ogatan, natural coconut shell charcoal, and activated carbon. IMDG 42-24 (UN 1361 Class 4.2) &amp; EUDR compliant. Factory in Sukabumi, West Java. Request free DHL samples." />
   <meta name="keywords" content="Indonesian coconut charcoal briquettes supplier, shisha charcoal manufacturer Indonesia, wholesale hookah charcoal supplier, IMDG 42-24 UN 1361 charcoal exporter, EUDR compliant charcoal Indonesia, hexagonal sawdust ogatan exporter, coconut shell charcoal exporter Indonesia, arang batok kelapa bulk, PT Bumi Ruma Nusantara, Ruma Charcoal" />
   <meta name="author" content="Ruma Charcoal (PT. Bumi Ruma Nusantara)" />
+  <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/images/favicon.png" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <link rel="canonical" href="https://www.rumacharcoal.com/" />
 
@@ -96,6 +98,11 @@
     ::-webkit-scrollbar-thumb:hover { background: #94A3B8; }
 
     .glass-nav {
+      background: rgba(255, 255, 255, 0.94);
+    }
+    .glass-nav .logo-light { display: none !important; }
+    .glass-nav .logo-dark { display: block !important; }
+    .glass-nav-dummy {
       background: rgba(255, 255, 255, 0.94);
       backdrop-filter: blur(16px);
       -webkit-backdrop-filter: blur(16px);
@@ -542,8 +549,10 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-14">
         
-        <!-- WORDMARK LOGO (Clean & Authoritative) -->
-        <a href="index.html" class="flex items-center group flex-shrink-0">
+        <!-- BRAND LOGO & WORDMARK -->
+        <a href="index.html" class="flex items-center gap-3 group flex-shrink-0">
+          <img src="assets/images/logo-white.png" alt="Ruma Charcoal Logo" class="h-9 w-9 sm:h-10 sm:w-10 object-contain transition-transform duration-300 group-hover:scale-105 logo-light block" />
+          <img src="assets/images/logo.png" alt="Ruma Charcoal Logo" class="h-9 w-9 sm:h-10 sm:w-10 object-contain transition-transform duration-300 group-hover:scale-105 logo-dark hidden" />
           <span class="font-serif font-bold text-2xl sm:text-3xl tracking-tight leading-none text-current transition-colors duration-300">
             RUMA CHARCOAL<span class="text-brand-orange">.</span>
           </span>
@@ -1683,7 +1692,8 @@
         
         <!-- Brand Column (spans 2 cols on lg) -->
         <div class="lg:col-span-2">
-          <a href="index.html" class="inline-block mb-6">
+          <a href="index.html" class="inline-flex items-center gap-3 mb-6 group">
+            <img src="assets/images/logo-white.png" alt="Ruma Charcoal Logo" class="h-9 w-9 sm:h-10 sm:w-10 object-contain transition-transform duration-300 group-hover:scale-105" />
             <span class="font-serif font-bold text-2xl tracking-tight text-white">
               RUMA CHARCOAL<span class="text-brand-orange">.</span>
             </span>
