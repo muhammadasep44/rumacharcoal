@@ -36,7 +36,7 @@
   <!-- FONTS & ICONS -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
   <!-- TAILWIND CSS -->
@@ -58,6 +58,7 @@
           fontFamily: {
             sans: ['"Plus Jakarta Sans"', 'sans-serif'],
             serif: ['"DM Serif Display"', 'serif'],
+            brand: ['"Montserrat"', '"Plus Jakarta Sans"', 'sans-serif'],
           },
           boxShadow: {
             'glow': '0 10px 40px -10px rgba(234, 88, 12, 0.45)',
@@ -73,6 +74,10 @@
     ::-webkit-scrollbar-track { background: #F8FAFC; }
     ::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 5px; }
     ::-webkit-scrollbar-thumb:hover { background: #94A3B8; }
+
+        .font-brand {
+      font-family: 'Montserrat', 'Plus Jakarta Sans', sans-serif;
+    }
 
     .glass-nav {
       background: rgba(255, 255, 255, 0.94);
@@ -322,7 +327,7 @@
         <a href="../index.html" class="flex items-center gap-3 group flex-shrink-0">
           <img src="../assets/images/logo-white.png" alt="Ruma Charcoal Logo" class="h-9 w-9 sm:h-10 sm:w-10 object-contain transition-transform duration-300 group-hover:scale-105 logo-light block" />
           <img src="../assets/images/logo.png" alt="Ruma Charcoal Logo" class="h-9 w-9 sm:h-10 sm:w-10 object-contain transition-transform duration-300 group-hover:scale-105 logo-dark hidden" />
-          <span class="font-serif font-bold text-2xl sm:text-3xl tracking-tight leading-none text-current transition-colors duration-300">
+          <span class="font-brand font-extrabold text-2xl sm:text-3xl tracking-tight leading-none text-current transition-colors duration-300">
             RUMA CHARCOAL<span class="text-brand-orange">.</span>
           </span>
         </a>
@@ -984,7 +989,7 @@
         <div class="lg:col-span-2">
           <a href="../index.html" class="inline-flex items-center gap-3 mb-6 group">
             <img src="../assets/images/logo-white.png" alt="Ruma Charcoal Logo" class="h-9 w-9 sm:h-10 sm:w-10 object-contain transition-transform duration-300 group-hover:scale-105" />
-            <span class="font-serif font-bold text-2xl tracking-tight text-white">
+            <span class="font-brand font-extrabold text-2xl tracking-tight text-white">
               RUMA CHARCOAL<span class="text-brand-orange">.</span>
             </span>
           </a>
