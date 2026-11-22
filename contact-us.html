@@ -945,35 +945,7 @@
         });
       });
 
-      // Contact RFQ form handler
-      const form = document.getElementById('contactForm');
-      const formSuccess = document.getElementById('formSuccess');
-      const formSuccessMsg = document.getElementById('formSuccessMsg');
-      const fastWaLink = document.getElementById('fastWaLink');
-
-      if (form) {
-        form.addEventListener('submit', (e) => {
-          e.preventDefault();
-          const company = document.getElementById('companyName').value.trim();
-          const person = document.getElementById('contactPerson').value.trim();
-          const email = document.getElementById('contactEmail').value.trim();
-          const phone = document.getElementById('contactPhone').value.trim();
-          const port = document.getElementById('destinationPort').value.trim();
-          const inquiry = document.getElementById('inquiryType').value;
-          const product = document.getElementById('productType').value;
-          const volume = document.getElementById('volume').value;
-
-          const summary = `Thank you, ${person} (${company})! Your inquiry for ${product} (${volume}) shipping to ${port} has been registered with our B2B Export Desk. Our sales team will email ${email} and WhatsApp ${phone} within 2-4 hours.`;
-          formSuccessMsg.textContent = summary;
-
-          const waText = encodeURIComponent(`Hello Ruma Charcoal Team, I am ${person} from ${company}. I just submitted an export inquiry for ${product} (${volume}) to ${port}. Please provide your commercial quotation.`);
-          fastWaLink.href = `https://wa.me/6289666327550?text=${waText}`;
-
-          formSuccess.classList.remove('hidden');
-          showToast('Inquiry registered! Our export desk will reply within 2-4 hours.', 'success');
-          form.reset();
-        });
-      }
+      // Contact Form now handled by assets/js/emailjs-handler.js
     });
 
     // Toast helper
@@ -1017,5 +989,9 @@
       });
     })();
   </script>
+
+  <!-- EMAILJS SDK & INQUIRY HANDLER -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="assets/js/emailjs-handler.js"></script>
 </body>
 </html>

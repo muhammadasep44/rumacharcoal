@@ -1838,45 +1838,7 @@
       setTimeout(() => { toast.className = ''; }, 5000);
     }
 
-    // CONTACT FORM SUBMISSION HANDLER
-    document.getElementById('contact-form').addEventListener('submit', function (e) {
-      e.preventDefault();
-      const form = this;
-      const btn = document.getElementById('submit-btn');
-      const btnText = document.getElementById('btn-text');
-
-      const name = form.querySelector('[name="from_name"]').value.trim();
-      const email = form.querySelector('[name="reply_to"]').value.trim();
-      const phone = form.querySelector('[name="phone"]').value.trim();
-      const port = form.querySelector('[name="destination_port"]').value.trim();
-      const product = form.querySelector('[name="product"]').value;
-      const message = form.querySelector('[name="message"]').value.trim();
-
-      if (!name || !email || !phone || !port || !product || !message) {
-        showToast('Please fill in all required fields.', 'error');
-        return;
-      }
-      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-        showToast('Please enter a valid corporate email address.', 'error');
-        return;
-      }
-
-      btn.disabled = true;
-      btn.classList.add('btn-loading');
-      btnText.textContent = 'Sending Inquiry...';
-
-      // Send to direct WhatsApp backup & confirmation
-      setTimeout(() => {
-        btn.disabled = false;
-        btn.classList.remove('btn-loading');
-        btnText.textContent = 'Send Export Inquiry';
-        showToast('Inquiry received! Our export desk will reply within 2-4 hours. 🎉', 'success');
-
-        const waText = "Hello Ruma Charcoal team, I am " + name + " (" + (form.querySelector('[name="company"]').value.trim() || "Buyer") + "). I just submitted an inquiry for " + product + " to " + port + ". Please review our request.";
-        window.open("https://wa.me/6289666327550?text=" + encodeURIComponent(waText), "_blank");
-        form.reset();
-      }, 1000);
-    });
+    // Contact Form now handled by assets/js/emailjs-handler.js
 
     // NEWSLETTER SUBSCRIBE
     function subscribeNewsletter() {
@@ -2071,5 +2033,9 @@
     }
   </script>
 
+
+  <!-- EMAILJS SDK & INQUIRY HANDLER -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="assets/js/emailjs-handler.js"></script>
 </body>
 </html>

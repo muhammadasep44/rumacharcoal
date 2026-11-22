@@ -846,31 +846,7 @@
       window.addEventListener('scroll', revealOnScroll, { passive: true });
       revealOnScroll();
 
-      // Catalog RFQ form submission
-      const rfqForm = document.getElementById('catalogRfqForm');
-      const catSuccess = document.getElementById('catalogSuccess');
-      const catSuccessMsg = document.getElementById('catalogSuccessMsg');
-      const fastCatWa = document.getElementById('fastCatalogWa');
-
-      if (rfqForm) {
-        rfqForm.addEventListener('submit', (e) => {
-          e.preventDefault();
-          const company = document.getElementById('companyName').value.trim();
-          const contact = document.getElementById('contactEmail').value.trim();
-          const product = document.getElementById('productSelect').value;
-          const volume = document.getElementById('volumeSelect').value;
-          const port = document.getElementById('destinationPort').value.trim();
-
-          catSuccessMsg.textContent = `Thank you! Your quotation and sample request for "${product}" (${volume}) shipping to "${port}" on behalf of "${company}" has been sent to our sales team. We will respond to ${contact} within 2-4 hours.`;
-          
-          const waText = encodeURIComponent(`Hello Ruma Charcoal Team, I am submitting an RFQ for "${product}" (${volume}) shipping to ${port} on behalf of ${company}. Please send us your commercial quotation and lab specs.`);
-          fastCatWa.href = `https://wa.me/6289666327550?text=${waText}`;
-
-          catSuccess.classList.remove('hidden');
-          showToast('Product quotation request submitted!', 'success');
-          rfqForm.reset();
-        });
-      }
+      // Form now handled by ../assets/js/emailjs-handler.js
     });
 
     // Toast helper
@@ -914,5 +890,9 @@
       });
     })();
   </script>
+
+  <!-- EMAILJS SDK & INQUIRY HANDLER -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="../assets/js/emailjs-handler.js"></script>
 </body>
 </html>

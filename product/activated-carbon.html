@@ -1082,33 +1082,7 @@
         });
       });
 
-      // Activated Carbon RFQ form submission
-      const carbonForm = document.getElementById('activatedCarbonRfqForm');
-      const carbonSuccess = document.getElementById('activatedCarbonSuccess');
-      const carbonSuccessMsg = document.getElementById('activatedCarbonSuccessMsg');
-      const fastCarbonWa = document.getElementById('fastActivatedCarbonWa');
-
-      if (carbonForm) {
-        carbonForm.addEventListener('submit', (e) => {
-          e.preventDefault();
-          const company = document.getElementById('companyName').value.trim();
-          const contact = document.getElementById('contactEmail').value.trim();
-          const mesh = document.getElementById('meshSpec').value;
-          const iodine = document.getElementById('iodineSpec').value;
-          const volume = document.getElementById('orderVolume').value;
-          const packaging = document.getElementById('packagingType').value;
-          const port = document.getElementById('destinationPort').value.trim();
-
-          carbonSuccessMsg.textContent = `Thank you! Your quotation request for "${mesh}" (Iodine: ${iodine}, Volume: ${volume}, Packaging: ${packaging}) for delivery to ${port} on behalf of "${company}" has been routed to our chemical engineering export desk. We will respond to ${contact} within 2-4 hours.`;
-          
-          const waText = encodeURIComponent(`Hello Ruma Charcoal Team, I am inquiring about "${mesh}" (Iodine: ${iodine}, ${volume}, ${packaging}) with delivery to ${port} on behalf of ${company}. Please send us your FOB/CIF quotation, TDS, and batch COA.`);
-          fastCarbonWa.href = `https://wa.me/6289666327550?text=${waText}`;
-
-          carbonSuccess.classList.remove('hidden');
-          showToast('Activated Carbon RFQ submitted successfully!', 'success');
-          carbonForm.reset();
-        });
-      }
+      // Form now handled by ../assets/js/emailjs-handler.js
     });
 
     // Toast helper
@@ -1152,5 +1126,9 @@
       });
     })();
   </script>
+
+  <!-- EMAILJS SDK & INQUIRY HANDLER -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="../assets/js/emailjs-handler.js"></script>
 </body>
 </html>

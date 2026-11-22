@@ -962,31 +962,7 @@
         });
       });
 
-      // BBQ RFQ form submission
-      const bbqForm = document.getElementById('bbqRfqForm');
-      const bbqSuccess = document.getElementById('bbqSuccess');
-      const bbqSuccessMsg = document.getElementById('bbqSuccessMsg');
-      const fastBbqWa = document.getElementById('fastBbqWa');
-
-      if (bbqForm) {
-        bbqForm.addEventListener('submit', (e) => {
-          e.preventDefault();
-          const company = document.getElementById('companyName').value.trim();
-          const contact = document.getElementById('contactEmail').value.trim();
-          const line = document.getElementById('productLine').value;
-          const volume = document.getElementById('orderVolume').value;
-          const port = document.getElementById('destinationPort').value.trim();
-
-          bbqSuccessMsg.textContent = `Thank you! Your quotation request for "${line}" (${volume}) shipping to ${port} on behalf of "${company}" has been received. Our BBQ sales managers will reply to ${contact} within 2-4 hours.`;
-          
-          const waText = encodeURIComponent(`Hello Ruma Charcoal Team, I am inquiring about "${line}" (${volume}) for delivery to ${port} on behalf of ${company}. Please send us your FOB/CIF price quote.`);
-          fastBbqWa.href = `https://wa.me/6289666327550?text=${waText}`;
-
-          bbqSuccess.classList.remove('hidden');
-          showToast('BBQ charcoal inquiry submitted!', 'success');
-          bbqForm.reset();
-        });
-      }
+      // Form now handled by ../assets/js/emailjs-handler.js
     });
 
     // Toast helper
@@ -1030,5 +1006,9 @@
       });
     })();
   </script>
+
+  <!-- EMAILJS SDK & INQUIRY HANDLER -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="../assets/js/emailjs-handler.js"></script>
 </body>
 </html>

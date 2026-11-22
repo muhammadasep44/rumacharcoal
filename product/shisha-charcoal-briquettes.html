@@ -1056,32 +1056,7 @@
         });
       });
 
-      // Shisha RFQ form submission
-      const shishaForm = document.getElementById('shishaRfqForm');
-      const shishaSuccess = document.getElementById('shishaSuccess');
-      const shishaSuccessMsg = document.getElementById('shishaSuccessMsg');
-      const fastShishaWa = document.getElementById('fastShishaWa');
-
-      if (shishaForm) {
-        shishaForm.addEventListener('submit', (e) => {
-          e.preventDefault();
-          const company = document.getElementById('companyName').value.trim();
-          const contact = document.getElementById('contactEmail').value.trim();
-          const grade = document.getElementById('shishaGrade').value;
-          const size = document.getElementById('cubeSize').value;
-          const volume = document.getElementById('orderVolume').value;
-          const port = document.getElementById('destinationPort').value.trim();
-
-          shishaSuccessMsg.textContent = `Thank you! Your inquiry for ${grade} in ${size} (${volume}) shipping to ${port} on behalf of "${company}" has been sent to our shisha export desk. We will contact ${contact} within 2-4 hours.`;
-          
-          const waText = encodeURIComponent(`Hello Ruma Charcoal Team, I am inquiring about ${grade} in ${size} (${volume}) shipping to ${port} on behalf of ${company}. Please send us your official quotation.`);
-          fastShishaWa.href = `https://wa.me/6289666327550?text=${waText}`;
-
-          shishaSuccess.classList.remove('hidden');
-          showToast('Shisha charcoal inquiry sent successfully!', 'success');
-          shishaForm.reset();
-        });
-      }
+      // Form now handled by ../assets/js/emailjs-handler.js
     });
 
     // Toast helper
@@ -1125,5 +1100,9 @@
       });
     })();
   </script>
+
+  <!-- EMAILJS SDK & INQUIRY HANDLER -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="../assets/js/emailjs-handler.js"></script>
 </body>
 </html>
