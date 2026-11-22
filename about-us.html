@@ -7,7 +7,7 @@
   <!-- PRIMARY SEO META TAGS -->
   <title>About Us &amp; Factory Profile | Ruma Charcoal (PT. Bumi Ruma Nusantara)</title>
   <meta name="description" content="Discover Ruma Charcoal (PT. Bumi Ruma Nusantara), Indonesia's trusted B2B manufacturer and exporter of premium coconut shisha briquettes, sawdust ogatan, natural coconut shell charcoal, and activated carbon. Production capacity 350 MT/month in Sukabumi, West Java." />
-  <meta name="keywords" content="about ruma charcoal, pt bumi ruma nusantara, indonesian charcoal factory sukabumi, coconut briquettes manufacturer profile, direct charcoal exporter indonesia, B2B charcoal supplier" />
+  <meta name="keywords" content="about ruma charcoal, pt bumi ruma nusantara, indonesian charcoal factory sukabumi, coconut briquettes manufacturer profile, direct charcoal exporter indonesia, B2B charcoal supplier, IMDG 42-24, muhammad asep komarudin" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <link rel="canonical" href="https://www.rumacharcoal.com/about-us.html" />
   <!-- FAVICON -->
@@ -92,6 +92,7 @@
     .reveal.active { opacity: 1; transform: translateY(0); }
     .reveal-delay-1 { transition-delay: 100ms; }
     .reveal-delay-2 { transition-delay: 200ms; }
+    .reveal-delay-3 { transition-delay: 300ms; }
 
     .footer-divider { border-color: rgba(255,255,255,0.08); }
 
@@ -126,26 +127,6 @@
     }
     #scroll-top:hover { background: #C2410C; }
 
-    #cookie-bar {
-      position: fixed;
-      bottom: 0; left: 0; right: 0;
-      z-index: 99998;
-      background: #0B1120;
-      border-top: 1px solid rgba(255,255,255,0.08);
-      padding: 1.1rem 1.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1.5rem;
-      flex-wrap: wrap;
-      transform: translateY(100%);
-      transition: transform 0.5s;
-    }
-    #cookie-bar.show { transform: translateY(0); }
-    .cookie-btn {
-      font-weight: 700; font-size: 0.8rem; padding: 0.55rem 1.2rem; border-radius: 8px; border: none; cursor: pointer;
-    }
-
     #toast {
       position: fixed;
       bottom: 2rem;
@@ -166,7 +147,6 @@
     }
     #toast.show { transform: translateY(0); }
     #toast.success { background: #0B1120; color: white; border-left: 4px solid #EA580C; }
-    #toast.error { background: #1a0505; color: #fca5a5; border-left: 4px solid #ef4444; }
 
     body > #wa-float {
       position: fixed !important;
@@ -203,7 +183,8 @@
     }
     body > #wa-float .wa-svg { position: relative; z-index: 1; width: 29px; height: 29px; color: #fff; }
     @keyframes waPulse { 0%, 100% { opacity: 0.55; transform: scale(1.18); } 50% { opacity: 0.12; transform: scale(1.5); } }
-      .glass-nav .logo-light { display: none !important; }
+
+    .glass-nav .logo-light { display: none !important; }
     .glass-nav .logo-dark { display: block !important; }
   </style>
 
@@ -294,41 +275,61 @@
     </div>
   </header>
 
-  <!-- ==========================================
-       2. HERO SECTION
-       ========================================== -->
-  <section class="relative min-h-[560px] flex items-center overflow-hidden pt-28 pb-16 bg-brand-dark">
+  <!-- ========================================================
+       SECTION 1: HERO & INDUSTRIAL EXPORT AUTHORITY
+       ======================================================== -->
+  <section class="relative min-h-[600px] flex items-center overflow-hidden pt-28 pb-20 bg-brand-dark">
     <div class="absolute inset-0 z-0">
-      <img src="assets/images/factory-production.jpg" alt="Indonesian agricultural biomass and charcoal factory facilities" class="w-full h-full object-cover opacity-50" fetchpriority="high" />
+      <img src="assets/images/factory-production.jpg" alt="Indonesian agricultural biomass and charcoal factory facilities" class="w-full h-full object-cover opacity-45" fetchpriority="high" />
       <div class="absolute inset-0 hero-gradient"></div>
     </div>
 
     <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
       <div class="max-w-3xl reveal">
         <div class="inline-flex items-center gap-2 py-1.5 px-4 rounded-full bg-white/10 border border-white/20 text-white font-bold tracking-widest uppercase text-xs mb-6 backdrop-blur-md">
-          <span class="w-2 h-2 rounded-full bg-brand-orange"></span> Direct Indonesian Manufacturer &bull; Sukabumi, West Java
+          <span class="w-2 h-2 rounded-full bg-brand-orange animate-pulse"></span> Direct Indonesian Manufacturer &bull; Sukabumi, West Java
         </div>
         <h1 class="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-white leading-tight mb-6">
           Factory Profile, Production Capacity &amp; Corporate Heritage.
         </h1>
         <p class="text-lg md:text-xl text-gray-300 font-light leading-relaxed mb-8">
-          Meet <strong>PT. Bumi Ruma Nusantara</strong>. Delivering 350 MT/month of world-class coconut shisha briquettes and biomass fuels to master distributors across 24+ countries.
+          Meet <strong>PT. Bumi Ruma Nusantara</strong>. Delivering <strong>350 MT/month</strong> of world-class coconut shell shisha briquettes, sawdust ogatan, and industrial carbon products to master distributors across 24+ countries.
         </p>
-        <div class="flex flex-wrap gap-4">
+        <div class="flex flex-wrap gap-4 mb-12">
           <a href="contact-us.html" class="bg-brand-orange text-white px-8 py-3.5 rounded-full font-bold hover:bg-orange-600 transition-all shadow-glow">
             Schedule Factory Visit
           </a>
           <a href="product.html" class="bg-white/10 border border-white/30 text-white px-8 py-3.5 rounded-full font-bold hover:bg-white hover:text-brand-dark transition-all">
-            Explore Products
+            Explore Product Portfolio
           </a>
+        </div>
+      </div>
+
+      <!-- Quick KPI Strip -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pt-8 border-t border-white/10 reveal reveal-delay-1">
+        <div class="p-4 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10">
+          <div class="text-3xl font-serif font-bold text-white count-up" data-target="350" data-suffix=" MT">0</div>
+          <div class="text-xs uppercase tracking-wider text-brand-orange font-bold mt-1">Monthly Capacity</div>
+        </div>
+        <div class="p-4 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10">
+          <div class="text-3xl font-serif font-bold text-white count-up" data-target="24" data-suffix="+">0</div>
+          <div class="text-xs uppercase tracking-wider text-brand-orange font-bold mt-1">Export Destinations</div>
+        </div>
+        <div class="p-4 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10">
+          <div class="text-3xl font-serif font-bold text-white">&lt; 1.8%</div>
+          <div class="text-xs uppercase tracking-wider text-brand-orange font-bold mt-1">White Ash Standard</div>
+        </div>
+        <div class="p-4 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10">
+          <div class="text-3xl font-serif font-bold text-white">IMDG 42-24</div>
+          <div class="text-xs uppercase tracking-wider text-brand-orange font-bold mt-1">Maritime Certified</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ==========================================
-       3. CORPORATE HERITAGE & MISSION
-       ========================================== -->
+  <!-- ========================================================
+       SECTION 2: CORPORATE HERITAGE & FOUNDER STORY
+       ======================================================== -->
   <section class="py-24 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -337,7 +338,7 @@
           <h2 class="text-brand-orange font-bold tracking-widest uppercase text-xs mb-4 flex items-center gap-2">
             <span class="w-8 h-0.5 bg-brand-orange"></span> Our Heritage &bull; PT. Bumi Ruma Nusantara
           </h2>
-          <h3 class="text-4xl font-serif font-bold text-brand-dark mb-6 leading-tight">
+          <h3 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark mb-6 leading-tight">
             Over a Decade of Engineering Integrity in Indonesian Biomass.
           </h3>
           <div class="space-y-5 text-brand-muted text-lg font-light leading-relaxed">
@@ -348,8 +349,18 @@
               Today, our modern industrial complex in Sukabumi operates high-pressure hydraulic extrusion lines, automatic rotary baking chambers, and dedicated weathering hangars. We handle the entire value chain from aged raw coconut shell carbonization to custom retail box packaging.
             </p>
             <p>
-              Under the direction of <strong>Muhammad Asep Komarudin</strong>, our export desk works directly with overseas brand owners, shisha lounge chains, and supermarket distributors to deliver consistent batches that exceed international commercial expectations.
+              Under the direct leadership of <strong>Muhammad Asep Komarudin</strong>, our export desk works directly with overseas brand owners, shisha lounge chains, and supermarket distributors to deliver consistent batches that exceed international commercial expectations.
             </p>
+          </div>
+          <div class="mt-8 flex items-center gap-6 pt-6 border-t border-gray-100">
+            <div>
+              <div class="font-serif font-bold text-xl text-brand-dark">Muhammad Asep Komarudin</div>
+              <div class="text-sm text-brand-orange font-medium">Founder &amp; Managing Director</div>
+            </div>
+            <div class="h-10 w-px bg-gray-200"></div>
+            <div class="text-xs text-brand-muted uppercase tracking-wider">
+              Sukabumi Manufacturing Complex<br />West Java, Indonesia
+            </div>
           </div>
         </div>
 
@@ -368,50 +379,316 @@
     </div>
   </section>
 
-  <!-- ==========================================
-       4. FACTORY INFRASTRUCTURE (3 Pillars)
-       ========================================== -->
+  <!-- ========================================================
+       SECTION 3: VISION, MISSION & FOUR OPERATING PILLARS
+       ======================================================== -->
   <section class="py-24 bg-brand-surface">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="text-center max-w-3xl mx-auto mb-16 reveal">
         <h2 class="text-brand-orange font-bold tracking-widest uppercase text-xs mb-4 justify-center flex items-center gap-2">
-          <span class="w-8 h-0.5 bg-brand-orange"></span> Infrastructure &amp; Capabilities <span class="w-8 h-0.5 bg-brand-orange"></span>
+          <span class="w-8 h-0.5 bg-brand-orange"></span> Corporate Philosophy <span class="w-8 h-0.5 bg-brand-orange"></span>
         </h2>
-        <h3 class="text-4xl font-serif font-bold text-brand-dark mb-4">
-          Built for High-Volume, Zero-Defect Ocean Export
+        <h3 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark mb-4">
+          The Four Pillars That Define Ruma Charcoal
         </h3>
+        <p class="text-brand-muted font-light">
+          We combine traditional Indonesian raw material advantages with European standard quality engineering to deliver complete peace of mind for B2B buyers.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        
+        <div class="p-8 bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-float transition-all reveal">
+          <div class="w-14 h-14 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 text-brand-orange">
+            <i class="ph-fill ph-gear text-2xl"></i>
+          </div>
+          <h4 class="font-bold text-brand-dark text-lg mb-2">Engineering Rigor</h4>
+          <p class="text-brand-muted text-sm leading-relaxed">
+            Every extrusion parameter—from 150+ bar pressure to particle mesh fineness—is calibrated to guarantee zero fissure cracking and prolonged combustion.
+          </p>
+        </div>
+
+        <div class="p-8 bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-float transition-all reveal reveal-delay-1">
+          <div class="w-14 h-14 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 text-brand-orange">
+            <i class="ph-fill ph-check-square-offset text-2xl"></i>
+          </div>
+          <h4 class="font-bold text-brand-dark text-lg mb-2">Zero-Defect Culture</h4>
+          <p class="text-brand-muted text-sm leading-relaxed">
+            Batch-by-batch proximate testing verifies ash below 1.8%, moisture under 5.0%, and burning duration exceeding 2.5 hours before cargo leaves our gates.
+          </p>
+        </div>
+
+        <div class="p-8 bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-float transition-all reveal reveal-delay-2">
+          <div class="w-14 h-14 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 text-brand-orange">
+            <i class="ph-fill ph-shield-check text-2xl"></i>
+          </div>
+          <h4 class="font-bold text-brand-dark text-lg mb-2">Maritime Safety First</h4>
+          <p class="text-brand-muted text-sm leading-relaxed">
+            Strict adherence to IMDG Code 42-24 UN 1361 regulations with mandatory 14-day indoor weathering bays and accredited SHT negative laboratory reports.
+          </p>
+        </div>
+
+        <div class="p-8 bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-float transition-all reveal reveal-delay-3">
+          <div class="w-14 h-14 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 text-brand-orange">
+            <i class="ph-fill ph-handshake text-2xl"></i>
+          </div>
+          <h4 class="font-bold text-brand-dark text-lg mb-2">Client Transparency</h4>
+          <p class="text-brand-muted text-sm leading-relaxed">
+            Open-door policy for factory audits, unedited container vanning video feeds, transparent production scheduling, and direct FOB/CIF invoicing.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SECTION 4: 6-STAGE INTEGRATED FACTORY WORKFLOW
+       ======================================================== -->
+  <section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+        <h2 class="text-brand-orange font-bold tracking-widest uppercase text-xs mb-4 justify-center flex items-center gap-2">
+          <span class="w-8 h-0.5 bg-brand-orange"></span> Production Engineering <span class="w-8 h-0.5 bg-brand-orange"></span>
+        </h2>
+        <h3 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark mb-4">
+          Integrated Factory Tour: From Raw Shell to Export Container
+        </h3>
+        <p class="text-brand-muted font-light">
+          A step-by-step walkthrough of how PT. Bumi Ruma Nusantara processes raw agricultural coconut shells into world-class export briquettes.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Step 1 -->
+        <div class="relative p-8 rounded-3xl bg-brand-surface border border-gray-100 hover:border-brand-orange/30 transition-all reveal">
+          <div class="text-4xl font-serif font-bold text-orange-200 mb-4">01</div>
+          <h4 class="text-xl font-bold text-brand-dark mb-2">Raw Shell Sorting &amp; Pyrolysis</h4>
+          <p class="text-sm text-brand-muted leading-relaxed">
+            We procure only aged, thick-walled mature coconut shells from registered cooperatives in Sumatra and West Java. De-silication and impurity removal ensure a pure carbon foundation.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="relative p-8 rounded-3xl bg-brand-surface border border-gray-100 hover:border-brand-orange/30 transition-all reveal reveal-delay-1">
+          <div class="text-4xl font-serif font-bold text-orange-200 mb-4">02</div>
+          <h4 class="text-xl font-bold text-brand-dark mb-2">Micro-Pulverization &amp; Sifting</h4>
+          <p class="text-sm text-brand-muted leading-relaxed">
+            Industrial disc mills crush carbonized charcoal into an ultra-fine 80-100 mesh flour. Multi-stage rotary vibratory sieves eliminate foreign matter and oversized particulates.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="relative p-8 rounded-3xl bg-brand-surface border border-gray-100 hover:border-brand-orange/30 transition-all reveal reveal-delay-2">
+          <div class="text-4xl font-serif font-bold text-orange-200 mb-4">03</div>
+          <h4 class="text-xl font-bold text-brand-dark mb-2">Food-Grade Starch Homogenization</h4>
+          <p class="text-sm text-brand-muted leading-relaxed">
+            Pure charcoal powder is blended with exactly 3-5% organic Indonesian cassava starch and purified water. Absolutely 0% chemical accelerants, sulfur, or limestone binders are used.
+          </p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="relative p-8 rounded-3xl bg-brand-surface border border-gray-100 hover:border-brand-orange/30 transition-all reveal">
+          <div class="text-4xl font-serif font-bold text-orange-200 mb-4">04</div>
+          <h4 class="text-xl font-bold text-brand-dark mb-2">150+ Bar Hydraulic Extrusion</h4>
+          <p class="text-sm text-brand-muted leading-relaxed">
+            High-tonnage hydraulic presses compress the paste through precision hardened tungsten dies into dense continuous logs, sliced cleanly into 25mm, 26mm, or 28mm cubes.
+          </p>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="relative p-8 rounded-3xl bg-brand-surface border border-gray-100 hover:border-brand-orange/30 transition-all reveal reveal-delay-1">
+          <div class="text-4xl font-serif font-bold text-orange-200 mb-4">05</div>
+          <h4 class="text-xl font-bold text-brand-dark mb-2">48-Hour Thermostatic Oven Baking</h4>
+          <p class="text-sm text-brand-muted leading-relaxed">
+            Briquettes enter multi-tier circulating hot air ovens operating at 80°C–90°C for two full days. Controlled dehydration extracts internal moisture strictly below 5.0%.
+          </p>
+        </div>
+
+        <!-- Step 6 -->
+        <div class="relative p-8 rounded-3xl bg-brand-surface border border-gray-100 hover:border-brand-orange/30 transition-all reveal reveal-delay-2">
+          <div class="text-4xl font-serif font-bold text-orange-200 mb-4">06</div>
+          <h4 class="text-xl font-bold text-brand-dark mb-2">14-Day Aeration &amp; Packing</h4>
+          <p class="text-sm text-brand-muted leading-relaxed">
+            Mandatory indoor weathering in ventilated hangars achieves full ambient thermal stability before sealed plastic wrapping, retail box packaging, and shipping container vanning.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SECTION 5: IN-HOUSE LABORATORY & PROXIMATE TESTING
+       ======================================================== -->
+  <section class="py-24 bg-[#0B1120] text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        
+        <div class="reveal">
+          <h2 class="text-brand-orange font-bold tracking-widest uppercase text-xs mb-4 flex items-center gap-2">
+            <span class="w-8 h-0.5 bg-brand-orange"></span> Quality Assurance Desk
+          </h2>
+          <h3 class="text-3xl sm:text-4xl font-serif font-bold text-white mb-6 leading-tight">
+            In-House Proximate Analysis Laboratory &amp; ASTM Standards.
+          </h3>
+          <p class="text-gray-300 font-light text-lg leading-relaxed mb-6">
+            We do not guess quality; we measure it on calibrated laboratory instruments. Every single production batch undergoes standardized testing according to ASTM International testing procedures.
+          </p>
+          
+          <div class="space-y-4">
+            <div class="p-4 rounded-2xl bg-white/5 border border-white/10 flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-orange-500/20 text-brand-orange flex items-center justify-center flex-shrink-0 mt-1">
+                <i class="ph-bold ph-drop text-xl"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-white text-base">Moisture Analyzer (ASTM D2867)</h4>
+                <p class="text-sm text-gray-400">Guaranteed &lt; 5.0% moisture content preventing internal dampness, quick extinction, and foul steam.</p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-white/5 border border-white/10 flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-orange-500/20 text-brand-orange flex items-center justify-center flex-shrink-0 mt-1">
+                <i class="ph-bold ph-fire text-xl"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-white text-base">Muffle Furnace Ash Assay (ASTM D2866)</h4>
+                <p class="text-sm text-gray-400">1,000°C complete burn validation ensuring &lt; 1.8% super-white, non-flying ash structure.</p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-white/5 border border-white/10 flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-orange-500/20 text-brand-orange flex items-center justify-center flex-shrink-0 mt-1">
+                <i class="ph-bold ph-shield text-xl"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-white text-base">Drop-Shatter Hardness Test</h4>
+                <p class="text-sm text-gray-400">Repeated 3x drops from a height of 1.5 meters onto a reinforced solid steel floor with zero cracking.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal reveal-delay-1">
+          <div class="bg-white/5 backdrop-blur-xl p-8 rounded-3xl border border-white/10 space-y-6">
+            <h4 class="text-xl font-serif font-bold text-white border-b border-white/10 pb-4">
+              Certified Laboratory Thresholds
+            </h4>
+            
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between text-sm mb-1">
+                  <span class="text-gray-300">Fixed Carbon (ASTM D3172)</span>
+                  <span class="text-brand-orange font-bold">80.0% &ndash; 85.0%</span>
+                </div>
+                <div class="w-full bg-white/10 rounded-full h-2">
+                  <div class="bg-brand-orange h-2 rounded-full" style="width: 85%"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-sm mb-1">
+                  <span class="text-gray-300">Calorific Value (Gross Heat)</span>
+                  <span class="text-brand-orange font-bold">7,200 &ndash; 7,500 kcal/kg</span>
+                </div>
+                <div class="w-full bg-white/10 rounded-full h-2">
+                  <div class="bg-brand-orange h-2 rounded-full" style="width: 92%"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-sm mb-1">
+                  <span class="text-gray-300">Total Ash Content</span>
+                  <span class="text-brand-orange font-bold">&lt; 1.8% Super White</span>
+                </div>
+                <div class="w-full bg-white/10 rounded-full h-2">
+                  <div class="bg-brand-orange h-2 rounded-full" style="width: 20%"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-sm mb-1">
+                  <span class="text-gray-300">Internal Moisture</span>
+                  <span class="text-brand-orange font-bold">&lt; 5.0% Max</span>
+                </div>
+                <div class="w-full bg-white/10 rounded-full h-2">
+                  <div class="bg-brand-orange h-2 rounded-full" style="width: 25%"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-sm mb-1">
+                  <span class="text-gray-300">Burning Duration (25mm cube)</span>
+                  <span class="text-brand-orange font-bold">2.5 &ndash; 3.0 Hours</span>
+                </div>
+                <div class="w-full bg-white/10 rounded-full h-2">
+                  <div class="bg-brand-orange h-2 rounded-full" style="width: 95%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pt-4 border-t border-white/10 flex items-center justify-between text-xs text-gray-400">
+              <span>Survey Partners: Sucofindo, Carsurin, SGS</span>
+              <span class="text-emerald-400 font-semibold flex items-center gap-1"><i class="ph-fill ph-check-circle"></i> ISO / ASTM Standard</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SECTION 6: IMDG CODE 42-24 & MARITIME SAFETY PROTOCOL
+       ======================================================== -->
+  <section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+        <h2 class="text-brand-orange font-bold tracking-widest uppercase text-xs mb-4 justify-center flex items-center gap-2">
+          <span class="w-8 h-0.5 bg-brand-orange"></span> Maritime Compliance <span class="w-8 h-0.5 bg-brand-orange"></span>
+        </h2>
+        <h3 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark mb-4">
+          Certified IMDG Code 42-24 UN 1361 Class 4.2 Safe Ocean Shipping
+        </h3>
+        <p class="text-brand-muted font-light">
+          Major shipping lines enforce stringent carrier acceptance rules for carbon products. Here is how our engineering protocols prevent port holds and guarantee vessel space.
+        </p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         
-        <div class="p-10 bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-float transition-all reveal">
-          <div class="w-16 h-16 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 text-brand-orange">
-            <i class="ph-fill ph-gear text-3xl"></i>
+        <div class="p-8 bg-brand-surface rounded-3xl border border-gray-100 hover:shadow-float transition-all reveal">
+          <div class="w-14 h-14 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 text-brand-orange">
+            <i class="ph-fill ph-warehouse text-2xl"></i>
           </div>
-          <h4 class="font-bold text-brand-dark text-xl mb-3">150+ Bar Hydraulic Extrusion</h4>
-          <p class="text-brand-muted text-[0.95rem] leading-relaxed">
-            Industrial hydraulic compression compacts coconut powder to extreme structural density. This guarantees briquettes remain crack-free on heated burners.
+          <h4 class="font-bold text-brand-dark text-xl mb-3">14-Day Aeration Protocol</h4>
+          <p class="text-brand-muted text-sm leading-relaxed">
+            Freshly baked briquettes complete mandatory indoor weathering in our specialized aeration hangars. This fully dissipates internal exothermic potential before container stuffing.
           </p>
         </div>
 
-        <div class="p-10 bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-float transition-all reveal reveal-delay-1">
-          <div class="w-16 h-16 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 text-brand-orange">
-            <i class="ph-fill ph-thermometer text-3xl"></i>
+        <div class="p-8 bg-brand-surface rounded-3xl border border-gray-100 hover:shadow-float transition-all reveal reveal-delay-1">
+          <div class="w-14 h-14 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 text-brand-orange">
+            <i class="ph-fill ph-certificate text-2xl"></i>
           </div>
-          <h4 class="font-bold text-brand-dark text-xl mb-3">Thermostatic Rotary Ovens</h4>
-          <p class="text-brand-muted text-[0.95rem] leading-relaxed">
-            48-hour continuous controlled baking extracts residual moisture down to strictly &lt;5.0%. This prevents internal dampness and foul steam during lighting.
+          <h4 class="font-bold text-brand-dark text-xl mb-3">Accredited SHT Certification</h4>
+          <p class="text-brand-muted text-sm leading-relaxed">
+            Every shipment undergoes the official Self-Heating Test (SHT) conducted by accredited surveyors (Sucofindo / Carsurin), issuing official Negative declarations for carrier approval.
           </p>
         </div>
 
-        <div class="p-10 bg-white rounded-3xl border border-gray-100 shadow-sm hover:shadow-float transition-all reveal reveal-delay-2">
-          <div class="w-16 h-16 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 text-brand-orange">
-            <i class="ph-fill ph-warehouse text-3xl"></i>
+        <div class="p-8 bg-brand-surface rounded-3xl border border-gray-100 hover:shadow-float transition-all reveal reveal-delay-2">
+          <div class="w-14 h-14 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 text-brand-orange">
+            <i class="ph-fill ph-boat text-2xl"></i>
           </div>
-          <h4 class="font-bold text-brand-dark text-xl mb-3">IMDG 42-24 Weathering Bays</h4>
-          <p class="text-brand-muted text-[0.95rem] leading-relaxed">
-            Dedicated indoor aeration hangars ensure all freshly carbonized materials complete mandatory 14-day weathering before container stuffing and survey issuance.
+          <h4 class="font-bold text-brand-dark text-xl mb-3">Vanning &amp; Temperature Log</h4>
+          <p class="text-sm text-brand-muted leading-relaxed">
+            Standard 20ft &amp; 40ft containers are inspected for watertight integrity, fitted with hanging silica desiccants, stowed according to strict weight distributions, and temperature logged.
           </p>
         </div>
 
@@ -419,28 +696,245 @@
     </div>
   </section>
 
-  <!-- ==========================================
-       5. CTA BANNER
-       ========================================== -->
-  <section class="py-20 bg-brand-dark text-white relative">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center reveal">
-      <h3 class="text-3xl sm:text-4xl font-serif font-bold mb-6">Inspect Our Manufacturing Complex in Sukabumi</h3>
-      <p class="text-gray-300 font-light text-lg leading-relaxed mb-8">
-        We arrange direct VIP transport from Jakarta International Airport (CGK) for international buyer delegations, lounge owners, and surveyor teams. Experience our production quality firsthand.
+  <!-- ========================================================
+       SECTION 7: OEM & PRIVATE LABEL PACKAGING CAPABILITIES
+       ======================================================== -->
+  <section class="py-24 bg-brand-surface">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        
+        <div class="reveal">
+          <h2 class="text-brand-orange font-bold tracking-widest uppercase text-xs mb-4 flex items-center gap-2">
+            <span class="w-8 h-0.5 bg-brand-orange"></span> Custom Manufacturing
+          </h2>
+          <h3 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark mb-6 leading-tight">
+            Turnkey OEM &amp; Private Label: Your Brand, Our Precision Factory.
+          </h3>
+          <p class="text-brand-muted text-lg font-light leading-relaxed mb-6">
+            We power top-tier shisha lounge brands, retail supermarket chains, and wholesale distributors globally. From graphic prepress to barcode registration, we handle all custom packaging in-house.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="p-5 bg-white rounded-2xl border border-gray-100 shadow-sm">
+              <i class="ph-fill ph-package text-brand-orange text-2xl mb-2"></i>
+              <h4 class="font-bold text-brand-dark text-base mb-1">Inner Retail Boxes</h4>
+              <p class="text-xs text-brand-muted">1 kg, 2 kg, and 5 kg boxes with sealed moisture-barrier PE inner plastic lining.</p>
+            </div>
+
+            <div class="p-5 bg-white rounded-2xl border border-gray-100 shadow-sm">
+              <i class="ph-fill ph-archive-box text-brand-orange text-2xl mb-2"></i>
+              <h4 class="font-bold text-brand-dark text-base mb-1">Master Shipping Cartons</h4>
+              <p class="text-xs text-brand-muted">10 kg and 20 kg double-wall corrugated heavy-duty cartons built for ocean transit.</p>
+            </div>
+
+            <div class="p-5 bg-white rounded-2xl border border-gray-100 shadow-sm">
+              <i class="ph-fill ph-sparkle text-brand-orange text-2xl mb-2"></i>
+              <h4 class="font-bold text-brand-dark text-base mb-1">Luxury Finishes</h4>
+              <p class="text-xs text-brand-muted">Spot UV, gold/silver foil stamping, soft-touch matte lamination, and embossed logos.</p>
+            </div>
+
+            <div class="p-5 bg-white rounded-2xl border border-gray-100 shadow-sm">
+              <i class="ph-fill ph-translate text-brand-orange text-2xl mb-2"></i>
+              <h4 class="font-bold text-brand-dark text-base mb-1">Global Compliance</h4>
+              <p class="text-xs text-brand-muted">Multilingual warnings &amp; regulatory typography (Arabic, English, French, German, Russian).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal reveal-delay-1">
+          <div class="relative">
+            <img src="assets/images/oem-packaging-mockup.jpg" alt="Premium private label charcoal retail packaging boxes" class="rounded-3xl shadow-xl w-full h-[460px] object-cover" loading="lazy" />
+            <div class="absolute -bottom-6 -left-6 bg-brand-dark text-white p-6 rounded-2xl shadow-float max-w-xs border border-white/10 hidden sm:block">
+              <div class="text-brand-orange font-bold text-sm uppercase tracking-wider mb-1">Custom Sizes Available</div>
+              <div class="text-xs text-gray-300">Cubes (22mm, 25mm, 26mm, 27mm, 28mm), Kaloud Lotus Cuts, Fingers, and Hexagons.</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SECTION 8: GLOBAL EXPORT REACH & PORT LOGISTICS HUBS
+       ======================================================== -->
+  <section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+        <h2 class="text-brand-orange font-bold tracking-widest uppercase text-xs mb-4 justify-center flex items-center gap-2">
+          <span class="w-8 h-0.5 bg-brand-orange"></span> Worldwide Shipping <span class="w-8 h-0.5 bg-brand-orange"></span>
+        </h2>
+        <h3 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark mb-4">
+          Delivering Indonesian Excellence Across 24+ International Markets
+        </h3>
+        <p class="text-brand-muted font-light">
+          Connected via direct highway access from our Sukabumi complex to Tanjung Priok Port (IDJKT) in Jakarta, facilitating reliable FOB, CFR, and CIF ocean bookings.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        
+        <div class="p-8 bg-brand-surface rounded-3xl border border-gray-100 hover:border-brand-orange/30 transition-all reveal">
+          <div class="text-xs font-bold text-brand-orange uppercase tracking-widest mb-2">Middle East &amp; GCC</div>
+          <h4 class="font-serif font-bold text-brand-dark text-xl mb-4">Direct Shisha Hubs</h4>
+          <ul class="space-y-2 text-sm text-brand-muted">
+            <li class="flex items-center gap-2"><i class="ph ph-check text-brand-orange"></i> UAE (Jebel Ali / Dubai)</li>
+            <li class="flex items-center gap-2"><i class="ph ph-check text-brand-orange"></i> Saudi Arabia (Jeddah / Dammam)</li>
+            <li class="flex items-center gap-2"><i class="ph ph-check text-brand-orange"></i> Jordan (Aqaba Port)</li>
+            <li class="flex items-center gap-2"><i class="ph ph-check text-brand-orange"></i> Iraq, Kuwait, Lebanon</li>
+          </ul>
+        </div>
+
+        <div class="p-8 bg-brand-surface rounded-3xl border border-gray-100 hover:border-brand-orange/30 transition-all reveal reveal-delay-1">
+          <div class="text-xs font-bold text-brand-orange uppercase tracking-widest mb-2">European Union &amp; UK</div>
+          <h4 class="font-serif font-bold text-brand-dark text-xl mb-4">EUDR Compliant Lines</h4>
+          <ul class="space-y-2 text-sm text-brand-muted">
+            <li class="flex items-center gap-2"><i class="ph ph-check text-brand-orange"></i> Germany (Hamburg Port)</li>
+            <li class="flex items-center gap-2"><i class="ph ph-check text-brand-orange"></i> Netherlands (Rotterdam)</li>
+            <li class="flex items-center gap-2"><i class="ph ph-check text-brand-orange"></i> Poland (Gdansk Port)</li>
+            <li class="flex items-center gap-2"><i class="ph ph-check text-brand-orange"></i> United Kingdom (Felixstowe)</li>
+          </ul>
+        </div>
+
+        <div class="p-8 bg-brand-surface rounded-3xl border border-gray-100 hover:border-brand-orange/30 transition-all reveal reveal-delay-2">
+          <div class="text-xs font-bold text-brand-orange uppercase tracking-widest mb-2">North America</div>
+          <h4 class="font-serif font-bold text-brand-dark text-xl mb-4">Master Distribution</h4>
+          <ul class="space-y-2 text-sm text-brand-muted">
+            <li class="flex items-center gap-2"><i class="ph ph-check text-brand-orange"></i> USA West Coast (Los Angeles / LB)</li>
+            <li class="flex items-center gap-2"><i class="ph ph-check text-brand-orange"></i> USA East Coast (New York / NJ)</li>
+            <li class="flex items-center gap-2"><i class="ph ph-check text-brand-orange"></i> Canada (Vancouver Port)</li>
+            <li class="flex items-center gap-2"><i class="ph ph-check text-brand-orange"></i> Canada (Montreal Port)</li>
+          </ul>
+        </div>
+
+        <div class="p-8 bg-brand-surface rounded-3xl border border-gray-100 hover:border-brand-orange/30 transition-all reveal reveal-delay-3">
+          <div class="text-xs font-bold text-brand-orange uppercase tracking-widest mb-2">Asia &amp; Oceania</div>
+          <h4 class="font-serif font-bold text-brand-dark text-xl mb-4">Industrial &amp; BBQ</h4>
+          <ul class="space-y-2 text-sm text-brand-muted">
+            <li class="flex items-center gap-2"><i class="ph ph-check text-brand-orange"></i> Japan (Yokohama / Tokyo)</li>
+            <li class="flex items-center gap-2"><i class="ph ph-check text-brand-orange"></i> South Korea (Busan Port)</li>
+            <li class="flex items-center gap-2"><i class="ph ph-check text-brand-orange"></i> Australia (Melbourne / Sydney)</li>
+            <li class="flex items-center gap-2"><i class="ph ph-check text-brand-orange"></i> Malaysia, Singapore, Taiwan</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SECTION 9: EXECUTIVE LEADERSHIP & MANAGEMENT DESK
+       ======================================================== -->
+  <section class="py-24 bg-brand-surface">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+        <h2 class="text-brand-orange font-bold tracking-widest uppercase text-xs mb-4 justify-center flex items-center gap-2">
+          <span class="w-8 h-0.5 bg-brand-orange"></span> Leadership Team <span class="w-8 h-0.5 bg-brand-orange"></span>
+        </h2>
+        <h3 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark mb-4">
+          The Leadership Driving Ruma Charcoal
+        </h3>
+        <p class="text-brand-muted font-light">
+          Experienced engineering, chemical quality, and ocean logistics professionals dedicated to flawless export performance.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        
+        <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm text-center reveal">
+          <div class="w-20 h-20 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6 text-brand-orange">
+            <i class="ph-fill ph-user-circle text-4xl"></i>
+          </div>
+          <h4 class="font-bold text-brand-dark text-lg">Muhammad Asep Komarudin</h4>
+          <p class="text-brand-orange text-xs font-bold uppercase tracking-wider mb-3">Managing Director</p>
+          <p class="text-xs text-brand-muted leading-relaxed">
+            Directs executive vision, corporate governance, and overseas B2B trade partnerships across Europe, Middle East, and the Americas.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm text-center reveal reveal-delay-1">
+          <div class="w-20 h-20 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6 text-brand-orange">
+            <i class="ph-fill ph-hard-hat text-4xl"></i>
+          </div>
+          <h4 class="font-bold text-brand-dark text-lg">Ir. Hendra Gunawan</h4>
+          <p class="text-brand-orange text-xs font-bold uppercase tracking-wider mb-3">Chief Plant Engineer</p>
+          <p class="text-xs text-brand-muted leading-relaxed">
+            15+ years overseeing high-pressure hydraulic extrusion lines, rotary oven thermodynamics, and plant capacity scaling in Sukabumi.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm text-center reveal reveal-delay-2">
+          <div class="w-20 h-20 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6 text-brand-orange">
+            <i class="ph-fill ph-flask text-4xl"></i>
+          </div>
+          <h4 class="font-bold text-brand-dark text-lg">Ratna Dewi, S.Si</h4>
+          <p class="text-brand-orange text-xs font-bold uppercase tracking-wider mb-3">Head of Laboratory &amp; QC</p>
+          <p class="text-xs text-brand-muted leading-relaxed">
+            Directs in-house proximate testing, ASTM calibration, drop-shatter evaluations, and liaison with third-party testing surveyor agencies.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm text-center reveal reveal-delay-3">
+          <div class="w-20 h-20 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6 text-brand-orange">
+            <i class="ph-fill ph-compass text-4xl"></i>
+          </div>
+          <h4 class="font-bold text-brand-dark text-lg">Aris Munandar</h4>
+          <p class="text-brand-orange text-xs font-bold uppercase tracking-wider mb-3">International Logistics Desk</p>
+          <p class="text-xs text-brand-muted leading-relaxed">
+            Specialist in IMDG 42-24 vessel bookings, ocean bills of lading, Tanjung Priok customs clearance, and EUDR documentation compliance.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SECTION 10: VIP BUYER FACTORY INVITATION & AUDIT PROTOCOL (CTA)
+       ======================================================== -->
+  <section class="py-24 bg-brand-dark text-white relative">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center reveal">
+      
+      <div class="inline-flex items-center gap-2 py-1.5 px-4 rounded-full bg-white/10 border border-white/20 text-white font-bold tracking-widest uppercase text-xs mb-6">
+        <span class="w-2 h-2 rounded-full bg-brand-orange"></span> VIP On-Site Inspection Protocol
+      </div>
+      <h3 class="text-3xl sm:text-5xl font-serif font-bold mb-6">
+        Inspect Our Manufacturing Complex in Sukabumi
+      </h3>
+      <p class="text-gray-300 font-light text-lg leading-relaxed mb-10 max-w-3xl mx-auto">
+        We arrange direct VIP airport chauffeur service from <strong>Jakarta Soekarno-Hatta International Airport (CGK)</strong> direct to our factory complex in Sukabumi, West Java. Conduct your own raw material audit, observe live extrusion lines, and test burning characteristics in our laboratory.
       </p>
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-left mb-12 max-w-4xl mx-auto">
+        <div class="p-6 rounded-2xl bg-white/5 border border-white/10">
+          <div class="text-brand-orange font-bold text-xl mb-1">01. Travel Support</div>
+          <p class="text-xs text-gray-400">Formal Indonesian corporate invitation letters issued for business visa application and itinerary planning.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white/5 border border-white/10">
+          <div class="text-brand-orange font-bold text-xl mb-1">02. Plant Walkthrough</div>
+          <p class="text-xs text-gray-400">Full access to raw shell carbonization, crushing mills, hydraulic presses, ovens, and weathering hangars.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white/5 border border-white/10">
+          <div class="text-brand-orange font-bold text-xl mb-1">03. Boardroom Contract</div>
+          <p class="text-xs text-gray-400">Direct commercial negotiation with Managing Director Muhammad Asep Komarudin with locked FOB terms.</p>
+        </div>
+      </div>
+
       <div class="flex flex-wrap justify-center gap-4">
         <a href="contact-us.html" class="bg-brand-orange text-white font-bold px-8 py-4 rounded-full hover:bg-orange-600 transition-all shadow-glow">
-          Book a Factory Visit
+          Schedule Your Factory Visit
         </a>
-        <a href="https://wa.me/6289666327550?text=Hello%20Ruma%20Charcoal,%20I%20would%20like%20to%20plan%20a%20factory%20visit%20to%20Sukabumi." target="_blank" rel="noopener noreferrer" class="bg-green-600 hover:bg-green-500 text-white font-bold px-8 py-4 rounded-full transition-all flex items-center gap-2">
-          <i class="ph-fill ph-whatsapp-logo text-xl"></i> Chat on WhatsApp
+        <a href="https://wa.me/6289666327550?text=Hello%20Ruma%20Charcoal,%20I%20would%20like%20to%20plan%20a%20factory%20inspection%20visit%20to%20Sukabumi." target="_blank" rel="noopener noreferrer" class="bg-green-600 hover:bg-green-500 text-white font-bold px-8 py-4 rounded-full transition-all flex items-center gap-2">
+          <i class="ph-fill ph-whatsapp-logo text-xl"></i> Chat on WhatsApp (+62 896-6632-7550)
         </a>
       </div>
     </div>
   </section>
 
   <!-- ==========================================
-       6. FOOTER (5-Column Layout)
+       FOOTER (5-Column Layout)
        ========================================== -->
   <footer class="bg-[#080C17] text-gray-400 border-t footer-divider">
     <div class="border-b footer-divider">
@@ -504,7 +998,7 @@
         <div>
           <h4 class="text-white font-bold mb-6 tracking-widest uppercase text-xs">Product Lines</h4>
           <ul class="space-y-3 text-sm font-light">
-            <li><a href="product/shisha-charcoal-briquettes.html" class="hover:text-brand-orange transition-colors flex items-center gap-2"><i class="ph ph-caret-right text-xs"></i>Shisha Charcoal (<1.8% Ash)</a></li>
+            <li><a href="product/shisha-charcoal-briquettes.html" class="hover:text-brand-orange transition-colors flex items-center gap-2"><i class="ph ph-caret-right text-xs"></i>Shisha Charcoal (&lt;1.8% Ash)</a></li>
             <li><a href="product/bbq-charcoal-briquettes.html" class="hover:text-brand-orange transition-colors flex items-center gap-2"><i class="ph ph-caret-right text-xs"></i>Hexagonal Sawdust (Ogatan)</a></li>
             <li><a href="product/coconut-shell-charcoal.html" class="hover:text-brand-orange transition-colors flex items-center gap-2"><i class="ph ph-caret-right text-xs"></i>Natural Coconut Shell Charcoal</a></li>
             <li><a href="product/activated-carbon.html" class="hover:text-brand-orange transition-colors flex items-center gap-2"><i class="ph ph-caret-right text-xs"></i>Activated Carbon (GAC/PAC)</a></li>
@@ -532,7 +1026,7 @@
               <span>Mon &ndash; Sat, 08:00 &ndash; 17:00 WIB</span>
             </li>
           </ul>
-          <a href="https://wa.me/6289666327550?text=Hello%20Ruma%20Charcoal,%20I%20would%20like%20to%20inquire%20about%20your%20charcoal%20products." target="_blank" rel="noopener noreferrer" class="mt-8 inline-flex items-center gap-2 bg-green-600 hover:bg-green-500 text-white text-sm font-bold px-5 py-3 rounded-xl transition-all">
+          <a href="https://wa.me/6289666327550?text=Hello%20Ruma%20Charcoal,%20I%20would%20like%20to%20inquire%20about%20your%20charcoal%20factory%20capacity." target="_blank" rel="noopener noreferrer" class="mt-8 inline-flex items-center gap-2 bg-green-600 hover:bg-green-500 text-white text-sm font-bold px-5 py-3 rounded-xl transition-all">
             <i class="ph-fill ph-whatsapp-logo text-lg"></i> Chat on WhatsApp
           </a>
         </div>
@@ -545,8 +1039,8 @@
           &copy; <span id="year">2026</span> <strong class="text-gray-300">Ruma Charcoal (PT. Bumi Ruma Nusantara)</strong>. All rights reserved. Registered in Indonesia.
         </p>
         <div class="flex items-center gap-6 text-xs font-light">
-          <a href="sustainable.html" class="hover:text-brand-orange transition-colors">EUDR Compliance</a>
-          <a href="contact-us.html" class="hover:text-brand-orange transition-colors">Privacy &amp; Terms</a>
+          <a href="sustainable.html" class="hover:text-brand-orange transition-colors">Sustainability &amp; EUDR</a>
+          <a href="contact-us.html" class="hover:text-brand-orange transition-colors">Contact Export Desk</a>
         </div>
       </div>
     </div>
@@ -673,6 +1167,20 @@
       }, { threshold: 0.4 });
       counters.forEach(el => obs.observe(el));
     })();
+
+    function subscribeNewsletter() {
+      const input = document.getElementById('newsletter-email');
+      const toast = document.getElementById('toast');
+      const msg = document.getElementById('toast-message');
+      if (!input || !input.value || !input.value.includes('@')) {
+        if (msg) msg.textContent = 'Please enter a valid email address.';
+        if (toast) { toast.className = 'error show'; setTimeout(() => toast.classList.remove('show'), 3500); }
+        return;
+      }
+      if (msg) msg.textContent = 'Thank you! You have subscribed to 2026 market updates.';
+      if (toast) { toast.className = 'success show'; setTimeout(() => toast.classList.remove('show'), 3500); }
+      input.value = '';
+    }
   </script>
 </body>
 </html>
