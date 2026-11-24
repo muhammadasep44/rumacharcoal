@@ -20,6 +20,7 @@ Allow: /
 # Disallow scrapers or private scripts if any
 Disallow: /scratch/
 Disallow: /temp/
+Disallow: /email-templates/
 
 # XML Sitemap
 Sitemap: https://www.rumacharcoal.com/sitemap.xml
