@@ -2,27 +2,27 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://www.rumacharcoal.com/sitemap-main.xml</loc>
+    <loc>https://rumacharcoal.com/sitemap-main.xml</loc>
     <lastmod>2026-11-24</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://www.rumacharcoal.com/sitemap-products.xml</loc>
+    <loc>https://rumacharcoal.com/sitemap-products.xml</loc>
     <lastmod>2026-11-24</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://www.rumacharcoal.com/sitemap-supplier-hubs.xml</loc>
+    <loc>https://rumacharcoal.com/sitemap-supplier-hubs.xml</loc>
     <lastmod>2026-11-24</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://www.rumacharcoal.com/sitemap-supplier-countries.xml</loc>
+    <loc>https://rumacharcoal.com/sitemap-supplier-countries.xml</loc>
     <lastmod>2026-11-24</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://www.rumacharcoal.com/sitemap-supplier-ports.xml</loc>
+    <loc>https://rumacharcoal.com/sitemap-supplier-ports.xml</loc>
     <lastmod>2026-11-24</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://www.rumacharcoal.com/sitemap-all.xml</loc>
+    <loc>https://rumacharcoal.com/sitemap-all.xml</loc>
     <lastmod>2026-11-24</lastmod>
   </sitemap>
 </sitemapindex>

@@ -23,10 +23,10 @@ Disallow: /temp/
 Disallow: /email-templates/
 
 # XML Sitemaps
-Sitemap: https://www.rumacharcoal.com/sitemap.xml
-Sitemap: https://www.rumacharcoal.com/sitemap-main.xml
-Sitemap: https://www.rumacharcoal.com/sitemap-products.xml
-Sitemap: https://www.rumacharcoal.com/sitemap-supplier-hubs.xml
-Sitemap: https://www.rumacharcoal.com/sitemap-supplier-countries.xml
-Sitemap: https://www.rumacharcoal.com/sitemap-supplier-ports.xml
-Sitemap: https://www.rumacharcoal.com/sitemap-all.xml
+Sitemap: https://rumacharcoal.com/sitemap.xml
+Sitemap: https://rumacharcoal.com/sitemap-main.xml
+Sitemap: https://rumacharcoal.com/sitemap-products.xml
+Sitemap: https://rumacharcoal.com/sitemap-supplier-hubs.xml
+Sitemap: https://rumacharcoal.com/sitemap-supplier-countries.xml
+Sitemap: https://rumacharcoal.com/sitemap-supplier-ports.xml
+Sitemap: https://rumacharcoal.com/sitemap-all.xml
