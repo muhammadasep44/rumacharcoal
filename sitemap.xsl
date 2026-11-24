@@ -301,7 +301,7 @@
           <xsl:apply-templates />
           
           <footer>
-            <p>&copy; 2026 <strong>PT. Bumi Ruma Nusantara</strong> &bull; Sukabumi, West Java, Indonesia. IMDG 42-24 &amp; EUDR Compliant.</p>
+            <p>&#169; 2026 <strong>PT. Bumi Ruma Nusantara</strong> &#8226; Sukabumi, West Java, Indonesia. IMDG 42-24 &amp; EUDR Compliant.</p>
             <p style="margin-top: 4px;">Search engine crawlers (Googlebot, Bingbot, Yandex) parse the underlying XML standard nodes directly.</p>
           </footer>
         </div>
