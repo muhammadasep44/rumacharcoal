@@ -55,42 +55,22 @@
   <meta name="twitter:image" content="https://rumacharcoal.com/assets/images/shisha-briquettes-cubes.jpg" />
 
   <!-- ═══════════════════════════════════════════
-       FONTS & ICONS (DM Serif Display & Plus Jakarta Sans)
+       FONTS & ICONS (Optimized Non-Blocking Delivery)
        ═══════════════════════════════════════════ -->
+  <link rel="preload" as="image" href="assets/images/shisha-briquettes-cubes.jpg" fetchpriority="high" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Montserrat:wght@700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Montserrat:wght@700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Montserrat:wght@700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" />
+  </noscript>
 
-  <!-- TAILWIND CSS CDN & CONFIGURATION -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              orange: '#EA580C',
-              ember: '#D97706',
-              dark: '#0B1120',
-              charcoal: '#151E2E',
-              surface: '#F8FAFC',
-              muted: '#64748B'
-            }
-          },
-          fontFamily: {
-            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
-            serif: ['"DM Serif Display"', 'serif'],
-            brand: ['"Montserrat"', '"Plus Jakarta Sans"', 'sans-serif'],
-          },
-          boxShadow: {
-            'glow': '0 10px 40px -10px rgba(234, 88, 12, 0.45)',
-            'float': '0 20px 40px -10px rgba(0,0,0,0.1)',
-          }
-        }
-      }
-    }
-  </script>
+  <!-- PRECOMPILED PRODUCTION CSS (Replaces 3.5MB JIT runtime with 40KB static stylesheet) -->
+  <link rel="stylesheet" href="assets/css/main.min.css" />
+
+  <!-- ASYNCHRONOUS ICONS -->
+  <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
 
   <style>
     ::-webkit-scrollbar { width: 10px; }
@@ -556,8 +536,8 @@
         
         <!-- BRAND LOGO & WORDMARK -->
         <a href="index.html" class="flex items-center gap-3 group flex-shrink-0">
-          <img src="assets/images/logo-white.png" alt="Ruma Charcoal Logo" class="h-9 w-9 sm:h-10 sm:w-10 object-contain transition-transform duration-300 group-hover:scale-105 logo-light block" />
-          <img src="assets/images/logo.png" alt="Ruma Charcoal Logo" class="h-9 w-9 sm:h-10 sm:w-10 object-contain transition-transform duration-300 group-hover:scale-105 logo-dark hidden" />
+          <img src="assets/images/logo-white.png" alt="Ruma Charcoal Logo" width="40" height="40" class="h-9 w-9 sm:h-10 sm:w-10 object-contain transition-transform duration-300 group-hover:scale-105 logo-light block" />
+          <img src="assets/images/logo.png" alt="Ruma Charcoal Logo" width="40" height="40" class="h-9 w-9 sm:h-10 sm:w-10 object-contain transition-transform duration-300 group-hover:scale-105 logo-dark hidden" />
           <span class="font-brand font-extrabold text-2xl sm:text-3xl tracking-tight leading-none text-current transition-colors duration-300">
             RUMA CHARCOAL<span class="text-brand-orange">.</span>
           </span>
@@ -600,7 +580,7 @@
   <section id="hero" class="relative min-h-screen flex items-center overflow-hidden pt-28 pb-20 md:pb-16 bg-brand-dark">
     <!-- Hero Background Image & Gradient Overlay -->
     <div class="absolute inset-0 z-0">
-      <img src="assets/images/shisha-briquettes-cubes.jpg" alt="Indonesian glowing coconut shell charcoal briquettes manufactured by Ruma Charcoal" class="w-full h-full object-cover opacity-60 transform scale-105" fetchpriority="high" decoding="async" />
+      <img src="assets/images/shisha-briquettes-cubes.jpg" alt="Indonesian glowing coconut shell charcoal briquettes manufactured by Ruma Charcoal" width="1200" height="896" class="w-full h-full object-cover opacity-60 transform scale-105" fetchpriority="high" decoding="async" />
       <div class="absolute inset-0 hero-gradient"></div>
     </div>
 
@@ -700,8 +680,8 @@
 
         <div class="relative reveal reveal-delay-1">
           <div class="grid grid-cols-2 gap-4">
-            <img src="assets/images/factory-production.jpg" alt="Coconut shell harvesting and sorting for charcoal carbonization in Indonesia" class="rounded-2xl shadow-xl w-full h-72 object-cover mt-12" loading="lazy" decoding="async" />
-            <img src="assets/images/shisha-briquettes-cubes.jpg" alt="Platinum shisha coconut charcoal cubes glowing red with super white ash" class="rounded-2xl shadow-xl w-full h-72 object-cover" loading="lazy" decoding="async" />
+            <img src="assets/images/factory-production.jpg" alt="Coconut shell harvesting and sorting for charcoal carbonization in Indonesia" width="1200" height="800" class="rounded-2xl shadow-xl w-full h-72 object-cover mt-12" loading="lazy" decoding="async" />
+            <img src="assets/images/shisha-briquettes-cubes.jpg" alt="Platinum shisha coconut charcoal cubes glowing red with super white ash" width="1200" height="896" class="rounded-2xl shadow-xl w-full h-72 object-cover" loading="lazy" decoding="async" />
           </div>
           <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-2xl shadow-float text-center border border-gray-100">
             <span class="block text-4xl font-bold text-brand-orange font-serif count-up" data-target="350" data-suffix="+">0</span>
@@ -795,7 +775,7 @@
         <!-- Product 1: Shisha Coconut Charcoal -->
         <article class="bg-[#151E2E] rounded-3xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-float group img-hover-zoom reveal">
           <div class="relative aspect-[4/3]">
-            <img src="assets/images/shisha-briquettes-cubes.jpg" alt="Platinum coconut charcoal briquettes for hookah shisha export" loading="lazy" class="w-full h-full object-cover" />
+            <img src="assets/images/shisha-briquettes-cubes.jpg" alt="Platinum coconut charcoal briquettes for hookah shisha export" width="1200" height="896" loading="lazy" decoding="async" class="w-full h-full object-cover" />
             <div class="absolute inset-0 bg-gradient-to-t from-[#151E2E] via-transparent to-transparent"></div>
             <span class="absolute top-4 right-4 bg-brand-orange text-white text-[0.62rem] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Platinum &bull; &lt;1.8% Ash</span>
           </div>
@@ -813,7 +793,7 @@
         <!-- Product 2: Hexagonal Sawdust BBQ Ogatan -->
         <article class="bg-[#151E2E] rounded-3xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-float group img-hover-zoom reveal reveal-delay-1">
           <div class="relative aspect-[4/3]">
-            <img src="assets/images/bbq-charcoal-briquettes.jpg" alt="Hexagonal sawdust charcoal briquettes ogatan for yakitori and Korean BBQ" loading="lazy" class="w-full h-full object-cover" />
+            <img src="assets/images/bbq-charcoal-briquettes.jpg" alt="Hexagonal sawdust charcoal briquettes ogatan for yakitori and Korean BBQ" width="1200" height="896" loading="lazy" decoding="async" class="w-full h-full object-cover" />
             <div class="absolute inset-0 bg-gradient-to-t from-[#151E2E] via-transparent to-transparent"></div>
             <span class="absolute top-4 right-4 bg-brand-orange text-white text-[0.62rem] font-bold px-3 py-1 rounded-full uppercase tracking-widest">BBQ &bull; 4-5 Hours</span>
           </div>
@@ -831,7 +811,7 @@
         <!-- Product 3: Natural Coconut Shell Charcoal -->
         <article class="bg-[#151E2E] rounded-3xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-float group img-hover-zoom reveal reveal-delay-2">
           <div class="relative aspect-[4/3]">
-            <img src="assets/images/coconut-shell-charcoal.jpg" alt="Natural Indonesian Coconut Shell Charcoal raw flakes and chunks" loading="lazy" class="w-full h-full object-cover" />
+            <img src="assets/images/coconut-shell-charcoal.jpg" alt="Natural Indonesian Coconut Shell Charcoal raw flakes and chunks" width="1200" height="800" loading="lazy" decoding="async" class="w-full h-full object-cover" />
             <div class="absolute inset-0 bg-gradient-to-t from-[#151E2E] via-transparent to-transparent"></div>
             <span class="absolute top-4 right-4 bg-brand-orange text-white text-[0.62rem] font-bold px-3 py-1 rounded-full uppercase tracking-widest">75–82% Carbon &bull; HS 4402.20</span>
           </div>
@@ -849,7 +829,7 @@
                 <!-- Product 4: Coconut Shell Activated Carbon -->
         <article class="bg-[#151E2E] rounded-3xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-float group img-hover-zoom reveal reveal-delay-3">
           <div class="relative aspect-[4/3]">
-            <img src="assets/images/activated-carbon.jpg" alt="Premium coconut shell granular activated carbon GAC texture" loading="lazy" class="w-full h-full object-cover" />
+            <img src="assets/images/activated-carbon.jpg" alt="Premium coconut shell granular activated carbon GAC texture" width="1200" height="800" loading="lazy" decoding="async" class="w-full h-full object-cover" />
             <div class="absolute inset-0 bg-gradient-to-t from-[#151E2E] via-transparent to-transparent"></div>
             <span class="absolute top-4 right-4 bg-brand-orange text-white text-[0.62rem] font-bold px-3 py-1 rounded-full uppercase tracking-widest">High Iodine &bull; 900-1,150+ mg/g</span>
           </div>
@@ -1607,34 +1587,34 @@
           <form id="contact-form" class="space-y-6" novalidate>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <label class="block text-[0.8rem] font-bold text-brand-dark mb-2 uppercase tracking-widest">Full Name *</label>
-                <input type="text" name="from_name" required class="w-full bg-brand-surface border border-gray-200 p-4 rounded-xl focus:outline-none focus:border-brand-orange transition-colors" placeholder="e.g. Marcus Weber" />
+                <label for="rfq-name" class="block text-[0.8rem] font-bold text-brand-dark mb-2 uppercase tracking-widest">Full Name *</label>
+                <input type="text" id="rfq-name" name="from_name" aria-label="Full Name" required class="w-full bg-brand-surface border border-gray-200 p-4 rounded-xl focus:outline-none focus:border-brand-orange transition-colors" placeholder="e.g. Marcus Weber" />
               </div>
               <div>
-                <label class="block text-[0.8rem] font-bold text-brand-dark mb-2 uppercase tracking-widest">Corporate Email *</label>
-                <input type="email" name="reply_to" required class="w-full bg-brand-surface border border-gray-200 p-4 rounded-xl focus:outline-none focus:border-brand-orange transition-colors" placeholder="purchasing@company.com" />
-              </div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <label class="block text-[0.8rem] font-bold text-brand-dark mb-2 uppercase tracking-widest">Company / Brand Name</label>
-                <input type="text" name="company" class="w-full bg-brand-surface border border-gray-200 p-4 rounded-xl focus:outline-none focus:border-brand-orange transition-colors" placeholder="Shisha Lounge / Trading LLC" />
-              </div>
-              <div>
-                <label class="block text-[0.8rem] font-bold text-brand-dark mb-2 uppercase tracking-widest">WhatsApp / Phone *</label>
-                <input type="tel" name="phone" required class="w-full bg-brand-surface border border-gray-200 p-4 rounded-xl focus:outline-none focus:border-brand-orange transition-colors" placeholder="+971 50 ... / +49 ..." />
+                <label for="rfq-email" class="block text-[0.8rem] font-bold text-brand-dark mb-2 uppercase tracking-widest">Corporate Email *</label>
+                <input type="email" id="rfq-email" name="reply_to" aria-label="Corporate Email" required class="w-full bg-brand-surface border border-gray-200 p-4 rounded-xl focus:outline-none focus:border-brand-orange transition-colors" placeholder="purchasing@company.com" />
               </div>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <label class="block text-[0.8rem] font-bold text-brand-dark mb-2 uppercase tracking-widest">Destination Port *</label>
-                <input type="text" name="destination_port" required class="w-full bg-brand-surface border border-gray-200 p-4 rounded-xl focus:outline-none focus:border-brand-orange transition-colors" placeholder="e.g. Jebel Ali, Hamburg, St. Petersburg" />
+                <label for="rfq-company" class="block text-[0.8rem] font-bold text-brand-dark mb-2 uppercase tracking-widest">Company / Brand Name</label>
+                <input type="text" id="rfq-company" name="company" aria-label="Company or Brand Name" class="w-full bg-brand-surface border border-gray-200 p-4 rounded-xl focus:outline-none focus:border-brand-orange transition-colors" placeholder="Shisha Lounge / Trading LLC" />
               </div>
               <div>
-                <label class="block text-[0.8rem] font-bold text-brand-dark mb-2 uppercase tracking-widest">Product of Interest *</label>
-                <select name="product" required class="w-full bg-brand-surface border border-gray-200 p-4 rounded-xl focus:outline-none focus:border-brand-orange transition-colors appearance-none text-brand-muted">
+                <label for="rfq-phone" class="block text-[0.8rem] font-bold text-brand-dark mb-2 uppercase tracking-widest">WhatsApp / Phone *</label>
+                <input type="tel" id="rfq-phone" name="phone" aria-label="WhatsApp or Phone Number" required class="w-full bg-brand-surface border border-gray-200 p-4 rounded-xl focus:outline-none focus:border-brand-orange transition-colors" placeholder="+971 50 ... / +49 ..." />
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label for="rfq-dest" class="block text-[0.8rem] font-bold text-brand-dark mb-2 uppercase tracking-widest">Destination Port *</label>
+                <input type="text" id="rfq-dest" name="destination_port" aria-label="Destination Port" required class="w-full bg-brand-surface border border-gray-200 p-4 rounded-xl focus:outline-none focus:border-brand-orange transition-colors" placeholder="e.g. Jebel Ali, Hamburg, St. Petersburg" />
+              </div>
+              <div>
+                <label for="rfq-product" class="block text-[0.8rem] font-bold text-brand-dark mb-2 uppercase tracking-widest">Product of Interest *</label>
+                <select id="rfq-product" name="product" aria-label="Product of Interest" required class="w-full bg-brand-surface border border-gray-200 p-4 rounded-xl focus:outline-none focus:border-brand-orange transition-colors appearance-none text-brand-muted">
                   <option value="" disabled selected>&mdash; Select a charcoal product &mdash;</option>
                   <option value="Platinum Coconut Shisha Briquettes (<1.8% Ash)">Platinum Shisha Briquettes (&lt;1.8% Ash)</option>
                   <option value="Premium Coconut Shisha Briquettes (2.0-2.3% Ash)">Premium Shisha Briquettes (2.0-2.3% Ash)</option>
@@ -1648,8 +1628,8 @@
             </div>
 
             <div>
-              <label class="block text-[0.8rem] font-bold text-brand-dark mb-2 uppercase tracking-widest">Message / Required Volume *</label>
-              <textarea rows="4" name="message" required class="w-full bg-brand-surface border border-gray-200 p-4 rounded-xl focus:outline-none focus:border-brand-orange transition-colors resize-none" placeholder="e.g. We require 2x 40ft HC containers of 26mm Platinum shisha briquettes to Hamburg, CIF basis with custom 1kg retail boxes. Please include DHL sample details."></textarea>
+              <label for="rfq-message" class="block text-[0.8rem] font-bold text-brand-dark mb-2 uppercase tracking-widest">Message / Required Volume *</label>
+              <textarea id="rfq-message" rows="4" name="message" aria-label="Message or Required Volume" required class="w-full bg-brand-surface border border-gray-200 p-4 rounded-xl focus:outline-none focus:border-brand-orange transition-colors resize-none" placeholder="e.g. We require 2x 40ft HC containers of 26mm Platinum shisha briquettes to Hamburg, CIF basis with custom 1kg retail boxes. Please include DHL sample details."></textarea>
             </div>
 
             <div class="flex flex-col sm:flex-row gap-4 items-center">
@@ -1682,7 +1662,8 @@
             <p class="text-sm font-light text-gray-500">Get our monthly market analysis and FOB Indonesia price updates delivered directly to your desk.</p>
           </div>
           <div class="flex gap-3 w-full md:w-auto flex-col sm:flex-row">
-            <input type="email" id="newsletter-email" placeholder="Your business email" class="flex-1 md:w-64 bg-white/5 border border-white/10 text-white placeholder-gray-600 px-5 py-3 rounded-xl text-sm focus:border-brand-orange transition-colors outline-none" />
+            <label for="newsletter-email" class="sr-only">Business Email</label>
+            <input type="email" id="newsletter-email" name="newsletter_email" aria-label="Your business email" placeholder="Your business email" class="flex-1 md:w-64 bg-white/5 border border-white/10 text-white placeholder-gray-600 px-5 py-3 rounded-xl text-sm focus:border-brand-orange transition-colors outline-none" />
             <button onclick="subscribeNewsletter()" class="bg-brand-orange hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl text-sm transition-all whitespace-nowrap">
               Subscribe
             </button>
@@ -1698,7 +1679,7 @@
         <!-- Brand Column (spans 2 cols on lg) -->
         <div class="lg:col-span-2">
           <a href="index.html" class="inline-flex items-center gap-3 mb-6 group">
-            <img src="assets/images/logo-white.png" alt="Ruma Charcoal Logo" class="h-9 w-9 sm:h-10 sm:w-10 object-contain transition-transform duration-300 group-hover:scale-105" />
+            <img src="assets/images/logo-white.png" alt="Ruma Charcoal Logo" width="40" height="40" class="h-9 w-9 sm:h-10 sm:w-10 object-contain transition-transform duration-300 group-hover:scale-105" />
             <span class="font-brand font-extrabold text-2xl tracking-tight text-white">
               RUMA CHARCOAL<span class="text-brand-orange">.</span>
             </span>
@@ -2039,8 +2020,8 @@
   </script>
 
 
-  <!-- EMAILJS SDK & INQUIRY HANDLER -->
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <script src="assets/js/emailjs-handler.js"></script>
+  <!-- EMAILJS SDK & INQUIRY HANDLER (Deferred for instant TBT & FID) -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+  <script src="assets/js/emailjs-handler.js" defer></script>
 </body>
 </html>

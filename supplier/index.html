@@ -22,41 +22,20 @@
   <meta property="og:description" content="Factory-direct Indonesian charcoal commodities. Complete export portfolio, lab specifications, container loading plans, and IMDG 42-24 compliance." />
   <meta property="og:image" content="https://rumacharcoal.com/assets/images/shisha-briquettes-cubes.jpg" />
 
-  <!-- FONTS & ICONS -->
+  <!-- FONTS & ICONS (Optimized Non-Blocking Delivery) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Montserrat:wght@700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Montserrat:wght@700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Montserrat:wght@700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" />
+  </noscript>
 
-  <!-- TAILWIND CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              orange: '#EA580C',
-              ember: '#D97706',
-              dark: '#0B1120',
-              charcoal: '#151E2E',
-              surface: '#F8FAFC',
-              muted: '#64748B'
-            }
-          },
-          fontFamily: {
-            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
-            serif: ['"DM Serif Display"', 'serif'],
-            brand: ['"Montserrat"', '"Plus Jakarta Sans"', 'sans-serif'],
-          },
-          boxShadow: {
-            'glow': '0 10px 40px -10px rgba(234, 88, 12, 0.45)',
-            'float': '0 20px 40px -10px rgba(0,0,0,0.1)',
-          }
-        }
-      }
-    }
-  </script>
+  <!-- PRECOMPILED PRODUCTION CSS -->
+  <link rel="stylesheet" href="/assets/css/main.min.css" />
+
+  <!-- ASYNCHRONOUS ICONS -->
+  <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
 
   <style>
     ::-webkit-scrollbar { width: 10px; }
@@ -1354,8 +1333,8 @@
   </a>
 
   <!-- SCRIPTS -->
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <script src="../assets/js/emailjs-handler.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+  <script src="../assets/js/emailjs-handler.js" defer></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const yearEl = document.getElementById('year');

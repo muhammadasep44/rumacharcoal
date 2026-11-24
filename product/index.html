@@ -33,14 +33,20 @@
   <meta property="og:image" content="https://rumacharcoal.com/assets/images/shisha-briquettes-cubes.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
-  <!-- FONTS & ICONS -->
+    <!-- FONTS & ICONS (Optimized Non-Blocking Delivery) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Montserrat:wght@700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Montserrat:wght@700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Montserrat:wght@700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" />
+  </noscript>
 
-  <!-- TAILWIND CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- PRECOMPILED PRODUCTION CSS -->
+  <link rel="stylesheet" href="/assets/css/main.min.css" />
+
+  <!-- ASYNCHRONOUS ICONS -->
+  <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
   <script>
     tailwind.config = {
       theme: {
@@ -897,7 +903,7 @@
   </script>
 
   <!-- EMAILJS SDK & INQUIRY HANDLER -->
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <script src="../assets/js/emailjs-handler.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+  <script src="../assets/js/emailjs-handler.js" defer></script>
 </body>
 </html>
